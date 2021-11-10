@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am currently a Ph.D. Student in [School of Computing of KAIST](https://cs.kaist.ac.kr/).
+I am currently a Ph.D. Student in [KAIST School of Computing](https://cs.kaist.ac.kr/).
 
 Contact me if you are interested in research with me.
 
