@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am currently a Ph.D. Student in [KAIST School of Computing](https://cs.kaist.ac.kr/).
-
 Contact me if you are interested in research with me.
 
 <!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

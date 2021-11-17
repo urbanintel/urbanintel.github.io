@@ -21,7 +21,7 @@
 title: Urban Intel
 email: suminhan@kaist.ac.kr
 description: >- # this means to ignore newlines until "baseurl:"
-  Intelligent Urban Robot for Future Smart City
+  Urban Intelligence for Smart City
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
