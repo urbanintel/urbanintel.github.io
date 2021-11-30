@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  urbanintel
 
 # Build settings
-theme: minima
+theme: jekyll-theme-simplex
 plugins:
   - jekyll-feed
 
@@ -51,3 +51,20 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+logo_img: /assets/Freesample.svg #Absolute path to the logo. If not specified, the title will be displayed instead.
+copyright: © urbanintel 2021 #Your copyright.
+
+collections:
+    category:
+        output: true
+    authors:
+        output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
