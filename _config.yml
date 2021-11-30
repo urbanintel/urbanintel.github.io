@@ -1,4 +1,9 @@
 title: UrbanIntel
+email: suminhan@kaist.ac.kr
+description: >- # this means to ignore newlines until "baseurl:"
+  Urban Intelligence for Smart City
+github_username:  urbanintel
+
 logo_img: /assets/urbanintel.svg
 favicon: /assets/favicon.ico
 description: description
