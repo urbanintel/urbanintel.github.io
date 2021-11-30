@@ -2,8 +2,8 @@ title: UrbanIntel
 logo_img: /assets/urbanintel.svg
 favicon: /assets/favicon.ico
 description: description
-global_tags: jekyll theme simplex golasblog responsive html5
-copyright: © Golasowski 2021
+# global_tags: jekyll theme simplex golasblog responsive html5
+copyright: © UrbanIntel 2021
 
 sass:
     style: compressed
