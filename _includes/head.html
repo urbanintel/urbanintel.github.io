@@ -14,7 +14,7 @@
     property="og:title"
     content="
         {% if page.title != nil %}
-            {{page.title}}
+            {{page.title}} | {{site.title}}
         {% else %}
             {{site.title}}
         {% endif %}
@@ -42,7 +42,7 @@
 
 <title>
     {% if page.title != nil %}
-        {{page.title}}
+        {{page.title}} | {{site.title}}
     {% else %}
         {{site.title}}
     {% endif %}

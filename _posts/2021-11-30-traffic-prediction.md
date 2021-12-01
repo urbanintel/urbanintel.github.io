@@ -3,16 +3,17 @@ layout: post
 title:  "Traffic Prediction"
 category: [AI]
 date:   2021-11-30 15:43:00 +0900
+published: false
 ---
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its  temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real number, it is rather easier to define a problem as follows:
+Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real numbers, it is rather easier to define a problem as follows:
 
 $$ [X^{(1)}, ..., X^{(t-1)};\mathcal{G}] \xrightarrow{h(\cdot)} \hat{X}^{(t)} $$
 
-Where $$X^{(t)} \in \mathbb{R}^{N_x}$$ is traffic values of $$N_x$$ sensors at timestamp $$t$$, $$\mathcal{G}$$ is a network of the traffic sensors, and $$h(\cdot)$$ is a prediction model can be assumed as a function. We normally evaluate the performance of the preiction model $$h(\cdot)$$ using *mean absolute error (MAE)*, *mean squared error (MSE)*, *root mean squared error (RMSE)*, *mean absolute percent error (MAPE)*,  or *normalized mean absolute error (NMAE)*. These evaluation metrics may also be used as loss function if the model is based on deep neural network.
+Where $$X^{(t)} \in \mathbb{R}^{N_x}$$ is a vector of traffic values of $$N_x$$ sensors at timestamp $$t$$, $$\mathcal{G}$$ is a connection network between the traffic sensors, and $$h(\cdot)$$ is a prediction model that can be assumed as a function. We normally evaluate the performance of the preiction model $$h(\cdot)$$ using *mean absolute error (MAE)*, *mean squared error (MSE)*, *root mean squared error (RMSE)*, *mean absolute percent error (MAPE)*,  or *normalized mean absolute error (NMAE)*. These evaluation metrics may also be used as loss function if the model is based on deep neural network.
 
-Although we first described the problem as we can use all the historical values to predict the next step, it is not really feasible to be required to use all the historical data to predict only one next step values. Therefore, we may define a problem in rather narrowed down fashion as follows:
+Although we first described the problem as we can use all the historical values to predict the next step, it is not feasible to require all the historical data for each next step prediction. Therefore, we may define a problem in rather narrowed down fashion as follows:
 
 $$ [X^{(t-P+1)}, ..., X^{(t)};\mathcal{G}] \xrightarrow{h(\cdot)} [\hat{X}^{(t+1)}, ..., \hat{X}^{(t+Q)}] $$
 
