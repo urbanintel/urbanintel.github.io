@@ -1,0 +1,11 @@
+I"¢<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<p>For time series prediction, some of the baseline algorithms you can test is ARIMA and VAR.</p>
+
+<h1 id="arima">ARIMA</h1>
+
+<p><a href="https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average">Autoregressive integrated moving average</a>
+ ARIMA()</p>
+
+<h1 id="var">VAR</h1>
+:ET

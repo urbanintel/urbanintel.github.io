@@ -18,3 +18,7 @@
   url: category/Social.html
   icon: /assets/like-share.svg
   hue: "var(--c-themeHueGreen)"
+  # subnav: #Subnav. See note [2].
+  #     - title: News #Submenu item title.
+  #       url: category/News.html #Submenu item url.
+  #       hue: "var(--c-themeHueOrange)" #Submenu item hue.

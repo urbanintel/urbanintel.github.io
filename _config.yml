@@ -24,3 +24,7 @@ defaults:
       type: category
     values:
       layout: "category"
+
+scholar:
+  style: modern-language-association
+  # bibliography_template: <abbr>[{{extension}}]</abbr>{{reference}}

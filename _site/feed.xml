@@ -1,1 +1,175 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-01T10:15:07+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-02T15:15:23+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">ARIMA &amp;amp; VAR</title><link href="http://localhost:4000/ai/2021/12/02/ARIMA-VAR.html" rel="alternate" type="text/html" title="ARIMA &amp;amp; VAR" /><published>2021-12-02T10:22:00+09:00</published><updated>2021-12-02T10:22:00+09:00</updated><id>http://localhost:4000/ai/2021/12/02/ARIMA-VAR</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/02/ARIMA-VAR.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For time series prediction, some of the baseline algorithms you can test is ARIMA and VAR. Both are rather basic level of time series prediction models, and used for applications such as stock or traffic prediction.&lt;/p&gt;
+
+&lt;h1 id=&quot;arima&quot;&gt;ARIMA&lt;/h1&gt;
+
+&lt;p&gt;Autoregressive integrated moving average (&lt;a href=&quot;https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average&quot;&gt;ARIMA&lt;/a&gt;) is&lt;/p&gt;
+
+\[X_t - \alpha_1 X_{t-1} - ... - \alpha_{p'}X_{t-p'} = \epsilon_t + \theta_1 \epsilon_{t-1} + ... + \theta_q \epsilon_{t-q}\]
+
+&lt;h1 id=&quot;var&quot;&gt;VAR&lt;/h1&gt;
+
+&lt;p&gt;Vector autoregression (&lt;a href=&quot;https://en.wikipedia.org/wiki/Vector_autoregression&quot;&gt;VAR&lt;/a&gt;)&lt;/p&gt;
+
+\[y_t = c + A_1 y_{t-1} + A_2 y_{t-2} + ... + A_p y_{t-p} + e_t\]
+
+&lt;p&gt;while the \(y_t \in \mathbb{R}^k\) which is a \(k\)-dimensional vector.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">AI fails in real estate prediction</title><link href="http://localhost:4000/ai/2021/12/01/AI-fails.html" rel="alternate" type="text/html" title="AI fails in real estate prediction" /><published>2021-12-01T10:23:00+09:00</published><updated>2021-12-01T10:23:00+09:00</updated><id>http://localhost:4000/ai/2021/12/01/AI-fails</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/01/AI-fails.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;http://www.apple-economy.com/news/articleView.html?idxno=68409&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to use QGIS</title><link href="http://localhost:4000/db/2021/12/01/how-to-use-qgis.html" rel="alternate" type="text/html" title="How to use QGIS" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/db/2021/12/01/how-to-use-qgis</id><content type="html" xml:base="http://localhost:4000/db/2021/12/01/how-to-use-qgis.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a class=&quot;citation&quot; href=&quot;#ruby2&quot;&gt;(Flanagan and Matsumoto)&lt;/a&gt;
+&lt;a class=&quot;citation&quot; href=&quot;#li2017diffusion&quot;&gt;(Li et al.)&lt;/a&gt; [&lt;a href=&quot;&quot;&gt;Supporting Materials&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ruby2&quot;&gt;Flanagan, David, and Yukihiro Matsumoto. &lt;i&gt;The Ruby Programming Language&lt;/i&gt;. O’Reilly Media, 2008.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;li2017diffusion&quot;&gt;Li, Yaguang, et al. “Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting.” &lt;i&gt;ArXiv Preprint ArXiv:1707.01926&lt;/i&gt;, 2017.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;DB&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Livehoods Projects</title><link href="http://localhost:4000/social/2021/12/01/livehoods-project.html" rel="alternate" type="text/html" title="Livehoods Projects" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/social/2021/12/01/livehoods-project</id><content type="html" xml:base="http://localhost:4000/social/2021/12/01/livehoods-project.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://livehoods.org/&quot;&gt;Livehoods project&lt;/a&gt; is a way to find urban social meaning using social media in rather practical way.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Bus Demand Prediction</title><link href="http://localhost:4000/ai/2021/12/01/bus-traffic-prediction.html" rel="alternate" type="text/html" title="Bus Demand Prediction" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/ai/2021/12/01/bus-traffic-prediction</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/01/bus-traffic-prediction.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/posts/PCM20190308000187990_P4.jpg&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The data collected by regular alight tags are not only used for public transportation policy establishment such as demand-tailored route reorganization based on big data, but also to provide citizens with various information necessary for daily life, such as bus congestion levels and the number of people getting on and off at each stop. However, the researches for bus demand prediction is limited, as they simply use geographical neighborhood or line connection network in the modeling, while ignoring the social meaning of the purpose of the destination. If we are able to reason why people are congested in specific time zone, it gives more explaination about the cause of the congestion and further can be used for prediction in the future. Here are some of the related works that has been already been done in this field:&lt;/p&gt;
+
+&lt;!-- * WWW 2021: Fine-Grained Urban Flow Prediction
+* AAAI 2020: Potential passenger flow prediction: A novel study for urban transportation development
+* IJCAI	2019:	STG2Seq - Spatial-Temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.
+* KDD	2019:	Origin-Destination Matrix Prediction via Graph Convolution - a New Perspective of Passenger Demand Modeling.
+* ECML/PKDD 2018:	Discovering Urban Travel Demands Through Dynamic Zone Correlation in Location-Based Social Networks.
+* AAAI	2018:	DeepUrbanMomentum - An Online Deep-Learning System for Short-Term Urban Mobility Prediction.
+* Potential passenger flow prediction: A novel study for urban transportation development (AAAI-20)
+* Community-Aware Multi-Task Transportation Demand Prediction. (AAAI-21)
+* Revisiting spatial-temporal similarity: A deep learning framework for traffic prediction (AAAI-19)
+* Knowledge Adaption for Demand Prediction based on Multi-task Memory Neural Network. (CIKM-20)
+* A Fast and Accurate Method for Estimating People Flow from Spatiotemporal Population Data (IJCAI-18)
+* GSTNet: Global Spatial-Temporal Network for Traffic Flow Prediction (IJCAI-19)
+* A Sequential Convolution Network for Population Flow Prediction with Explicitly Correlation Modelling (IJCAI-20)
+* Co-Prediction of Multiple Transportation Demands Based on Deep Spatio-Temporal Neural Network (KDD-19)
+* Predicting short-term bus passenger demand using a pattern hybrid approach (TRC-14)
+* Generating demand responsive bus routes from social network data analysis (TRC-21) --&gt;
+
+&lt;h1 id=&quot;1-transportation-demand-prediction&quot;&gt;1. Transportation Demand Prediction&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;span id=&quot;liang2021fine&quot;&gt;Liang, Yuxuan, et al. “Fine-Grained Urban Flow Prediction.” &lt;i&gt;Proceedings of the Web Conference 2021&lt;/i&gt;, 2021, pp. 1833–45.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Keywords: Hierarchical graph&lt;/li&gt;
+      &lt;li&gt;They found&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span id=&quot;gong2020potential&quot;&gt;Gong, Yongshun, et al. “Potential Passenger Flow Prediction: A Novel Study for Urban Transportation Development.” &lt;i&gt;Proceedings of the AAAI Conference on Artificial Intelligence&lt;/i&gt;, vol. 34, no. 04, 2020, pp. 4020–27.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Bai, Lei, et al. “Stg2seq: Spatial-temporal graph to sequence model for multi-step passenger demand forecasting.” arXiv preprint arXiv:1905.10069 (2019).
+        &lt;ul&gt;
+          &lt;li&gt;Hello&lt;/li&gt;
+          &lt;li&gt;Malfoysdfsd&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- 상시적인 하차태그로 수집된 자료는 빅데이터를 기반으로 한 수요 맞춤형 노선개편 등 대중교통 정책수립에 사용될 뿐만 아니라 버스 내 혼잡도나 정류소별 승하차 인원 등 실생활에 필요한 다양한 정보를 시민들에세 제공할 수 있게 된다.   --&gt;
+
+&lt;p&gt;Cited References&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Human Activity Recognition</title><link href="http://localhost:4000/ai/social/2021/12/01/human-activity-recognition.html" rel="alternate" type="text/html" title="Human Activity Recognition" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/ai/social/2021/12/01/human-activity-recognition</id><content type="html" xml:base="http://localhost:4000/ai/social/2021/12/01/human-activity-recognition.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Human Activity Recognition&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;, &quot;Social&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Traffic Prediction</title><link href="http://localhost:4000/ai/2021/11/30/traffic-prediction.html" rel="alternate" type="text/html" title="Traffic Prediction" /><published>2021-11-30T15:43:00+09:00</published><updated>2021-11-30T15:43:00+09:00</updated><id>http://localhost:4000/ai/2021/11/30/traffic-prediction</id><content type="html" xml:base="http://localhost:4000/ai/2021/11/30/traffic-prediction.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real numbers, it is rather easier to define a problem as follows:&lt;/p&gt;
+
+\[[X^{(1)}, ..., X^{(t-1)};\mathcal{G}] \xrightarrow{h(\cdot)} \hat{X}^{(t)}\]
+
+&lt;p&gt;Where \(X^{(t)} \in \mathbb{R}^{N_x}\) is a vector of traffic values of \(N_x\) sensors at timestamp \(t\), \(\mathcal{G}\) is a connection network between the traffic sensors, and \(h(\cdot)\) is a prediction model that can be assumed as a function. We normally evaluate the performance of the preiction model \(h(\cdot)\) using &lt;em&gt;mean absolute error (MAE)&lt;/em&gt;, &lt;em&gt;mean squared error (MSE)&lt;/em&gt;, &lt;em&gt;root mean squared error (RMSE)&lt;/em&gt;, &lt;em&gt;mean absolute percent error (MAPE)&lt;/em&gt;,  or &lt;em&gt;normalized mean absolute error (NMAE)&lt;/em&gt;. These evaluation metrics may also be used as loss function if the model is based on deep neural network.&lt;/p&gt;
+
+&lt;p&gt;Although we first described the problem as we can use all the historical values to predict the next step, it is not feasible to require all the historical data for each next step prediction. Therefore, we may define a problem in rather narrowed down fashion as follows:&lt;/p&gt;
+
+\[[X^{(t-P+1)}, ..., X^{(t)};\mathcal{G}] \xrightarrow{h(\cdot)} [\hat{X}^{(t+1)}, ..., \hat{X}^{(t+Q)}]\]
+
+&lt;p&gt;Here we defined problem to predict next \(Q\) time stemps based on previous \(P\) time steps. This assumes that the temporal correlation pattern can be found within \(P\)- timesteps to predict the next \(Q\)- timesteps while the spatial correlation between the traffic sensors catched by the sensor network \(\mathcal{G}\).&lt;/p&gt;
+
+&lt;p&gt;Here are some list of papers that you can consider as baselines.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DCRNN&lt;/strong&gt; - Li, Yaguang, et al. “Diffusion convolutional recurrent neural network: Data-driven traffic forecasting.” arXiv preprint arXiv:1707.01926 (2017).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ST-MetaNet&lt;/strong&gt; - Pan, Zheyi, et al. “Urban traffic prediction from spatio-temporal data using deep meta learning.” Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp;amp; Data Mining. 2019.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GMAN&lt;/strong&gt; - Zheng, Chuanpan, et al. “Gman: A graph multi-attention network for traffic prediction.” Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 01. 2020.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some of my favorite researchers who are working in this field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhangjunbo.org/&quot;&gt;Junbo Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry></feed>
