@@ -28,3 +28,10 @@ defaults:
 scholar:
   style: modern-language-association
   # bibliography_template: <abbr>[{{extension}}]</abbr>{{reference}}
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+# highlighter: rouge
+# input: GFM
