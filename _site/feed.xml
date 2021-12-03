@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-03T23:40:33+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">Recent Deep Learning for Road Traffic Prediction</title><link href="/ai/2021/12/03/DCRNN-STMETA-GMAN.html" rel="alternate" type="text/html" title="Recent Deep Learning for Road Traffic Prediction" /><published>2021-12-03T10:22:00+09:00</published><updated>2021-12-03T10:22:00+09:00</updated><id>/ai/2021/12/03/DCRNN-STMETA-GMAN</id><content type="html" xml:base="/ai/2021/12/03/DCRNN-STMETA-GMAN.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-04T00:00:22+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">Recent Deep Learning for Road Traffic Prediction</title><link href="/ai/2021/12/03/DCRNN-STMETA-GMAN.html" rel="alternate" type="text/html" title="Recent Deep Learning for Road Traffic Prediction" /><published>2021-12-03T10:22:00+09:00</published><updated>2021-12-03T10:22:00+09:00</updated><id>/ai/2021/12/03/DCRNN-STMETA-GMAN</id><content type="html" xml:base="/ai/2021/12/03/DCRNN-STMETA-GMAN.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;More references are found here in this survey.&lt;/p&gt;
 
@@ -267,4 +267,13 @@
   biburl = {https://dblp.org/rec/conf/iclr/Shang0B21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-&lt;/pre&gt; --&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry></feed>
+&lt;/pre&gt; --&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Sample Post!</title><link href="/ai/db/social/2021/11/10/sample.html" rel="alternate" type="text/html" title="Sample Post!" /><published>2021-11-10T00:00:00+09:00</published><updated>2021-11-10T00:00:00+09:00</updated><id>/ai/db/social/2021/11/10/sample</id><content type="html" xml:base="/ai/db/social/2021/11/10/sample.html">&lt;h1 id=&quot;welcome&quot;&gt;Welcome&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, this is my first Jekyll blog post.&lt;/p&gt;
+
+&lt;p&gt;I hope you like it!&lt;/p&gt;
+
+&lt;p&gt;Urban Intelligence Let’s get to it!
+Urban Intelligence Let’s get to it!
+Urban Intelligence Let’s get to it!
+Urban Intelligence Let’s get to it!&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;, &quot;DB&quot;, &quot;Social&quot;]" /><summary type="html">Welcome</summary></entry></feed>
