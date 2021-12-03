@@ -1,1 +1,550 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-03T11:09:27+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-12-03T16:42:18+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">Recent Deep Learning for Road Traffic Prediction</title><link href="http://localhost:4000/ai/2021/12/03/DCRNN-STMETA-GMAN.html" rel="alternate" type="text/html" title="Recent Deep Learning for Road Traffic Prediction" /><published>2021-12-03T10:22:00+09:00</published><updated>2021-12-03T10:22:00+09:00</updated><id>http://localhost:4000/ai/2021/12/03/DCRNN-STMETA-GMAN</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/03/DCRNN-STMETA-GMAN.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;More references are found here in this survey.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Deep learning for road traffic forecasting: Does it make a difference? &lt;a class=&quot;citation&quot; href=&quot;#manibardo2021deep&quot;&gt;(Manibardo et al.)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Graph neural network for traffic forecasting: A survey &lt;a class=&quot;citation&quot; href=&quot;#jiang2021graph&quot;&gt;(Jiang and Luo)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Traffic Prediction Survey &lt;a href=&quot;https://github.com/aprbw/traffic_prediction&quot;&gt;https://github.com/aprbw/traffic_prediction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Conferences of interest:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;KDD&lt;/li&gt;
+  &lt;li&gt;AAAI&lt;/li&gt;
+  &lt;li&gt;CIKM&lt;/li&gt;
+  &lt;li&gt;ICLR&lt;/li&gt;
+  &lt;li&gt;WWW&lt;/li&gt;
+  &lt;li&gt;SIGSPATIAL&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;dcrnn-iclr-18-li-et-al&quot;&gt;DCRNN (ICLR-18) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/iclr/LiYS018&quot;&gt;(Li et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/liyaguang/DCRNN/raw/master/figures/model_architecture.jpg&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://openreview.net/forum?id=SJiHXGWAZ&quot;&gt;Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/liyaguang/DCRNN&quot;&gt;https://github.com/liyaguang/DCRNN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;st-gcn-ijcai-18-yu-et-al&quot;&gt;ST-GCN (IJCAI-18) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/ijcai/YuYZ18&quot;&gt;(Yu et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/Graph_Structured_Traffic_Data.png&quot; width=&quot;360&quot; /&gt;&lt;img src=&quot;https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/STGCN.png&quot; width=&quot;450&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://doi.org/10.24963/ijcai.2018/505&quot;&gt;Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/VeritasYin/STGCN_IJCAI-18&quot;&gt;https://github.com/VeritasYin/STGCN_IJCAI-18&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;st-metanet-kdd-19-pan-et-al&quot;&gt;ST-MetaNet (KDD-19) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/kdd/PanLW00Z19&quot;&gt;(Pan et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/panzheyi/ST-MetaNet/raw/master/overview.jpg&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://doi.org/10.1145/3292500.3330884&quot;&gt;Urban traffic prediction from spatio-temporal data using deep meta learning&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/panzheyi/ST-MetaNet&quot;&gt;https://github.com/panzheyi/ST-MetaNet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;graph-wavenet-ijcai-19-wu-et-al&quot;&gt;Graph WaveNet (IJCAI-19) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/ijcai/WuPLJZ19&quot;&gt;(Wu et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/nnzhan/Graph-WaveNet/raw/master/fig/model.png&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://doi.org/10.24963/ijcai.2019/264&quot;&gt;Graph WaveNet for Deep Spatial-Temporal Graph Modeling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/nnzhan/Graph-WaveNet&quot;&gt;https://github.com/nnzhan/Graph-WaveNet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;gman-aaai-20-zheng-et-al&quot;&gt;GMAN (AAAI-20) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/aaai/ZhengFW020&quot;&gt;(Zheng et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/zhengchuanpan/GMAN/raw/master/figure/GMAN.png&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://ojs.aaai.org/index.php/AAAI/article/view/5477&quot;&gt;GMAN: A Graph Multi-Attention Network for Traffic Prediction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/zhengchuanpan/GMAN&quot;&gt;https://github.com/zhengchuanpan/GMAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;stag-gcn-cikm-20-lu-et-al&quot;&gt;STAG-GCN (CIKM-20) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/cikm/LuGJFZ20&quot;&gt;(Lu et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://github.com/RobinLu1209/STAG-GCN/raw/master/figures/system_model.png&quot; width=&quot;700&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://dl.acm.org/doi/10.1145/3340531.3411894&quot;&gt;Spatiotemporal Adaptive Gated Graph Convolution Network for Urban Traffic Flow Forecasting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/RobinLu1209/STAG-GCN&quot;&gt;https://github.com/RobinLu1209/STAG-GCN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;gts-iclr-21-shang-et-al&quot;&gt;GTS (ICLR-21) &lt;a class=&quot;citation&quot; href=&quot;#DBLP:conf/iclr/Shang0B21&quot;&gt;(Shang et al.)&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;/assets/../../assets/img/posts/GTS-architecture.png&quot; width=&quot;800&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paper: &lt;a href=&quot;https://openreview.net/forum?id=WEHSlH5mOk&quot;&gt;Discrete Graph Structure Learning for Forecasting Multiple Time Series&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Code: &lt;a href=&quot;https://github.com/chaoshangcs/GTS&quot;&gt;https://github.com/chaoshangcs/GTS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;
+&lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/9447807&quot;&gt;&lt;span id=&quot;manibardo2021deep&quot;&gt;Manibardo, Eric L., et al. “Deep Learning for Road Traffic Forecasting: Does It Make a Difference?” &lt;i&gt;IEEE Transactions on Intelligent Transportation Systems&lt;/i&gt;, IEEE, 2021, https://ieeexplore.ieee.org/abstract/document/9447807.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@article{manibardo2021deep,
+  title = {Deep learning for road traffic forecasting: Does it make a difference?},
+  author = {Manibardo, Eric L and La{\~n}a, Ibai and Del Ser, Javier},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  year = {2021},
+  publisher = {IEEE},
+  url = {https://ieeexplore.ieee.org/abstract/document/9447807}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://arxiv.org/abs/2101.11174&quot;&gt;&lt;span id=&quot;jiang2021graph&quot;&gt;Jiang, Weiwei, and Jiayun Luo. “Graph Neural Network for Traffic Forecasting: A Survey.” &lt;i&gt;ArXiv Preprint ArXiv:2101.11174&lt;/i&gt;, 2021, https://arxiv.org/abs/2101.11174.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@article{jiang2021graph,
+  title = {Graph neural network for traffic forecasting: A survey},
+  author = {Jiang, Weiwei and Luo, Jiayun},
+  journal = {arXiv preprint arXiv:2101.11174},
+  year = {2021},
+  url = {https://arxiv.org/abs/2101.11174}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://openreview.net/forum?id=SJiHXGWAZ&quot;&gt;&lt;span id=&quot;DBLP:conf/iclr/LiYS018&quot;&gt;Li, Yaguang, et al. “Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic
+               Forecasting.” &lt;i&gt;6th International Conference on Learning Representations, ICLR 2018,
+               Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings&lt;/i&gt;, OpenReview.net, 2018, https://openreview.net/forum?id=SJiHXGWAZ.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/iclr/LiYS018,
+  author = {Li, Yaguang and Yu, Rose and Shahabi, Cyrus and Liu, Yan},
+  title = {Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic
+                 Forecasting},
+  booktitle = {6th International Conference on Learning Representations, {ICLR} 2018,
+                 Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings},
+  publisher = {OpenReview.net},
+  year = {2018},
+  url = {https://openreview.net/forum?id=SJiHXGWAZ},
+  timestamp = {Thu, 25 Jul 2019 14:25:46 +0200},
+  biburl = {https://dblp.org/rec/conf/iclr/LiYS018.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://doi.org/10.24963/ijcai.2018/505&quot;&gt;&lt;span id=&quot;DBLP:conf/ijcai/YuYZ18&quot;&gt;Yu, Bing, et al. “Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework
+               for Traffic Forecasting.” &lt;i&gt;Proceedings of the Twenty-Seventh International Joint Conference On
+               Artificial Intelligence, IJCAI 2018, July 13-19, 2018, Stockholm,
+               Sweden&lt;/i&gt;, edited by Jérôme Lang, ijcai.org, 2018, pp. 3634–40, doi:10.24963/ijcai.2018/505.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/ijcai/YuYZ18,
+  author = {Yu, Bing and Yin, Haoteng and Zhu, Zhanxing},
+  editor = {Lang, J{\'{e}}r{\^{o}}me},
+  title = {Spatio-Temporal Graph Convolutional Networks: {A} Deep Learning Framework
+                 for Traffic Forecasting},
+  booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on
+                 Artificial Intelligence, {IJCAI} 2018, July 13-19, 2018, Stockholm,
+                 Sweden},
+  pages = {3634--3640},
+  publisher = {ijcai.org},
+  year = {2018},
+  url = {https://doi.org/10.24963/ijcai.2018/505},
+  doi = {10.24963/ijcai.2018/505},
+  timestamp = {Tue, 20 Aug 2019 16:19:08 +0200},
+  biburl = {https://dblp.org/rec/conf/ijcai/YuYZ18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://doi.org/10.1145/3292500.3330884&quot;&gt;&lt;span id=&quot;DBLP:conf/kdd/PanLW00Z19&quot;&gt;Pan, Zheyi, et al. “Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
+               Learning.” &lt;i&gt;Proceedings of the 25th ACM SIGKDD International Conference On
+               Knowledge Discovery &amp;amp; Data Mining, KDD 2019, Anchorage, AK,
+               USA, August 4-8, 2019&lt;/i&gt;, edited by Ankur Teredesai et al., ACM, 2019, pp. 1720–30, doi:10.1145/3292500.3330884.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/kdd/PanLW00Z19,
+  author = {Pan, Zheyi and Liang, Yuxuan and Wang, Weifeng and Yu, Yong and Zheng, Yu and Zhang, Junbo},
+  editor = {Teredesai, Ankur and Kumar, Vipin and Li, Ying and Rosales, R{\'{o}}mer and Terzi, Evimaria and Karypis, George},
+  title = {Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
+                 Learning},
+  booktitle = {Proceedings of the 25th {ACM} {SIGKDD} International Conference on
+                 Knowledge Discovery {\&amp;} Data Mining, {KDD} 2019, Anchorage, AK,
+                 USA, August 4-8, 2019},
+  pages = {1720--1730},
+  publisher = {{ACM}},
+  year = {2019},
+  url = {https://doi.org/10.1145/3292500.3330884},
+  doi = {10.1145/3292500.3330884},
+  timestamp = {Thu, 14 Oct 2021 09:50:02 +0200},
+  biburl = {https://dblp.org/rec/conf/kdd/PanLW00Z19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://doi.org/10.24963/ijcai.2019/264&quot;&gt;&lt;span id=&quot;DBLP:conf/ijcai/WuPLJZ19&quot;&gt;Wu, Zonghan, et al. “Graph WaveNet for Deep Spatial-Temporal Graph Modeling.” &lt;i&gt;Proceedings of the Twenty-Eighth International Joint Conference On
+               Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16,
+               2019&lt;/i&gt;, edited by Sarit Kraus, ijcai.org, 2019, pp. 1907–13, doi:10.24963/ijcai.2019/264.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/ijcai/WuPLJZ19,
+  author = {Wu, Zonghan and Pan, Shirui and Long, Guodong and Jiang, Jing and Zhang, Chengqi},
+  editor = {Kraus, Sarit},
+  title = {Graph WaveNet for Deep Spatial-Temporal Graph Modeling},
+  booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on
+                 Artificial Intelligence, {IJCAI} 2019, Macao, China, August 10-16,
+                 2019},
+  pages = {1907--1913},
+  publisher = {ijcai.org},
+  year = {2019},
+  url = {https://doi.org/10.24963/ijcai.2019/264},
+  doi = {10.24963/ijcai.2019/264},
+  timestamp = {Tue, 29 Dec 2020 18:40:48 +0100},
+  biburl = {https://dblp.org/rec/conf/ijcai/WuPLJZ19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://aaai.org/ojs/index.php/AAAI/article/view/5477&quot;&gt;&lt;span id=&quot;DBLP:conf/aaai/ZhengFW020&quot;&gt;Zheng, Chuanpan, et al. “GMAN: A Graph Multi-Attention Network for Traffic Prediction.” &lt;i&gt;The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI
+               2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+               Conference, IAAI 2020, The Tenth AAAI Symposium on Educational
+               Advances in Artificial Intelligence, EAAI 2020, New York, NY, USA,
+               February 7-12, 2020&lt;/i&gt;, AAAI Press, 2020, pp. 1234–41, https://aaai.org/ojs/index.php/AAAI/article/view/5477.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/aaai/ZhengFW020,
+  author = {Zheng, Chuanpan and Fan, Xiaoliang and Wang, Cheng and Qi, Jianzhong},
+  title = {{GMAN:} {A} Graph Multi-Attention Network for Traffic Prediction},
+  booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+                 2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+                 Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+                 Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+                 February 7-12, 2020},
+  pages = {1234--1241},
+  publisher = {{AAAI} Press},
+  year = {2020},
+  url = {https://aaai.org/ojs/index.php/AAAI/article/view/5477},
+  timestamp = {Tue, 02 Feb 2021 07:59:41 +0100},
+  biburl = {https://dblp.org/rec/conf/aaai/ZhengFW020.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://doi.org/10.1145/3340531.3411894&quot;&gt;&lt;span id=&quot;DBLP:conf/cikm/LuGJFZ20&quot;&gt;Lu, Bin, et al. “Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+               Traffic Flow Forecasting.” &lt;i&gt;CIKM ’20: The 29th ACM International Conference on Information
+               and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020&lt;/i&gt;, edited by Mathieu d’Aquin et al., ACM, 2020, pp. 1025–34, doi:10.1145/3340531.3411894.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/cikm/LuGJFZ20,
+  author = {Lu, Bin and Gan, Xiaoying and Jin, Haiming and Fu, Luoyi and Zhang, Haisong},
+  editor = {d'Aquin, Mathieu and Dietze, Stefan and Hauff, Claudia and Curry, Edward and Cudr{\'{e}}{-}Mauroux, Philippe},
+  title = {Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+                 Traffic Flow Forecasting},
+  booktitle = {{CIKM} '20: The 29th {ACM} International Conference on Information
+                 and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020},
+  pages = {1025--1034},
+  publisher = {{ACM}},
+  year = {2020},
+  url = {https://doi.org/10.1145/3340531.3411894},
+  doi = {10.1145/3340531.3411894},
+  timestamp = {Thu, 14 Oct 2021 10:46:30 +0200},
+  biburl = {https://dblp.org/rec/conf/cikm/LuGJFZ20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://openreview.net/forum?id=WEHSlH5mOk&quot;&gt;&lt;span id=&quot;DBLP:conf/iclr/Shang0B21&quot;&gt;Shang, Chao, et al. “Discrete Graph Structure Learning for Forecasting Multiple Time Series.” &lt;i&gt;9th International Conference on Learning Representations, ICLR 2021,
+               Virtual Event, Austria, May 3-7, 2021&lt;/i&gt;, OpenReview.net, 2021, https://openreview.net/forum?id=WEHSlH5mOk.&lt;/span&gt;&lt;/a&gt;
+
+
+&lt;!-- &lt;pre&gt;@inproceedings{DBLP:conf/iclr/Shang0B21,
+  author = {Shang, Chao and Chen, Jie and Bi, Jinbo},
+  title = {Discrete Graph Structure Learning for Forecasting Multiple Time Series},
+  booktitle = {9th International Conference on Learning Representations, {ICLR} 2021,
+                 Virtual Event, Austria, May 3-7, 2021},
+  publisher = {OpenReview.net},
+  year = {2021},
+  url = {https://openreview.net/forum?id=WEHSlH5mOk},
+  timestamp = {Wed, 23 Jun 2021 17:36:39 +0200},
+  biburl = {https://dblp.org/rec/conf/iclr/Shang0B21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+&lt;/pre&gt; --&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">RichGo - Bigdata for Real Estate</title><link href="http://localhost:4000/db/2021/12/02/RichGo.html" rel="alternate" type="text/html" title="RichGo - Bigdata for Real Estate" /><published>2021-12-02T10:23:00+09:00</published><updated>2021-12-02T10:23:00+09:00</updated><id>http://localhost:4000/db/2021/12/02/RichGo</id><content type="html" xml:base="http://localhost:4000/db/2021/12/02/RichGo.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/richigo.png&quot; alt=&quot;사진은 본문과 직접 관련은 없음.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://m.richgo.ai/pc&quot;&gt;https://m.richgo.ai/pc&lt;/a&gt;
+&lt;a href=&quot;https://expert.richgo.ai/&quot;&gt;https://expert.richgo.ai/&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="[&quot;DB&quot;]" /><summary type="html"></summary></entry><entry><title type="html">ARIMA, VAR, and LSTM</title><link href="http://localhost:4000/ai/2021/12/02/ARIMA-VAR.html" rel="alternate" type="text/html" title="ARIMA, VAR, and LSTM" /><published>2021-12-02T10:22:00+09:00</published><updated>2021-12-02T10:22:00+09:00</updated><id>http://localhost:4000/ai/2021/12/02/ARIMA-VAR</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/02/ARIMA-VAR.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;For time series prediction, some of the baseline algorithms you can test are ARIMA, VAR, and LSTM. All are rather basic level of time series prediction models, and used for applications such as stock or traffic prediction.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/&quot;&gt;Cheetsheet for basic time-series forecasting methods&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;arima&quot;&gt;ARIMA&lt;/h1&gt;
+
+&lt;p&gt;In statistics and econometrics, and in particular in time series analysis, an autoregressive integrated moving average (ARIMA) model is a generalization of an autoregressive moving average (ARMA) model.&lt;/p&gt;
+
+&lt;p&gt;Non-seasonal ARIMA models are generally denoted ARIMA(p,d,q) where parameters p, d, and q are non-negative integers, p is the order (number of time lags) of the autoregressive model, d is the degree of differencing (the number of times the data have had past values subtracted), and q is the order of the moving-average model.&lt;/p&gt;
+
+&lt;p&gt;Autoregressive integrated moving average (&lt;a href=&quot;https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average&quot;&gt;ARIMA&lt;/a&gt;) is&lt;/p&gt;
+
+\[{\displaystyle X_{t}-\alpha _{1}X_{t-1}-\dots -\alpha _{p'}X_{t-p'}=\varepsilon _{t}+\theta _{1}\varepsilon _{t-1}+\cdots +\theta _{q}\varepsilon _{t-q},}\]
+
+&lt;p&gt;Useful materials:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/&quot;&gt;https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;span id=&quot;barberBRML2012&quot;&gt;Barber, D. &lt;i&gt;Bayesian Reasoning and Machine Learning&lt;/i&gt;. Cambridge University Press, 2012.&lt;/span&gt; Chapter 24: Continuous-state Markov Models.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# ARIMA example
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;statsmodels.tsa.arima.model&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ARIMA&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# contrived dataset
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# fit model
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ARIMA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;order&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model_fit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# make prediction
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yhat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model_fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;predict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;typ&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'levels'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yhat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;var&quot;&gt;VAR&lt;/h1&gt;
+
+&lt;p&gt;Vector autoregression (&lt;a href=&quot;https://en.wikipedia.org/wiki/Vector_autoregression&quot;&gt;VAR&lt;/a&gt;)&lt;/p&gt;
+
+\[y_t = c + A_1 y_{t-1} + A_2 y_{t-2} + ... + A_p y_{t-p} + e_t\]
+
+&lt;p&gt;while the \(y_t \in \mathbb{R}^k\) which is a \(k\)-dimensional vector.&lt;/p&gt;
+
+&lt;p&gt;Useful articles:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/&quot;&gt;https://www.machinelearningplus.com/time-series/vector-autoregression-examples-python/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# VAR example
+&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;statsmodels.tsa.vector_ar.var_model&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VAR&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;random&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# contrived dataset with dependency
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;v1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;v2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;row&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# fit model
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VAR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model_fit&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# make prediction
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yhat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;model_fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;forecast&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;model_fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yhat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;lstm&quot;&gt;LSTM&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/LSTM_Cell.svg/450px-LSTM_Cell.svg.png&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Long short-term memory (&lt;a href=&quot;https://en.wikipedia.org/wiki/Long_short-term_memory&quot;&gt;LSTM&lt;/a&gt;) is a recurrent network cell for sequence prediction.&lt;/p&gt;
+
+&lt;h3 id=&quot;lstm-with-a-forget-gate&quot;&gt;LSTM with a forget gate&lt;/h3&gt;
+
+\[{\displaystyle {\begin{aligned}f_{t}&amp;amp;=\sigma _{g}(W_{f}x_{t}+U_{f}h_{t-1}+b_{f})\\i_{t}&amp;amp;=\sigma _{g}(W_{i}x_{t}+U_{i}h_{t-1}+b_{i})\\o_{t}&amp;amp;=\sigma _{g}(W_{o}x_{t}+U_{o}h_{t-1}+b_{o})\\{\tilde {c}}_{t}&amp;amp;=\sigma _{c}(W_{c}x_{t}+U_{c}h_{t-1}+b_{c})\\c_{t}&amp;amp;=f_{t}\circ c_{t-1}+i_{t}\circ {\tilde {c}}_{t}\\h_{t}&amp;amp;=o_{t}\circ \sigma _{h}(c_{t})\end{aligned}}}\]
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tensorflow&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;inputs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keras&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;lstm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keras&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LSTM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lstm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# You can choose to return in sequences or a value
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lstm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keras&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LSTM&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;return_sequences&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;return_state&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;whole_seq_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final_memory_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;final_carry_state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lstm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;whole_seq_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;final_memory_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;final_carry_state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;tf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;keras&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;inputs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;whole_seq_output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;compile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;optimizer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'adam'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'mse'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;epochs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">AI fails in real estate prediction</title><link href="http://localhost:4000/ai/news/2021/12/01/AI-fails.html" rel="alternate" type="text/html" title="AI fails in real estate prediction" /><published>2021-12-01T10:23:00+09:00</published><updated>2021-12-01T10:23:00+09:00</updated><id>http://localhost:4000/ai/news/2021/12/01/AI-fails</id><content type="html" xml:base="http://localhost:4000/ai/news/2021/12/01/AI-fails.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.apple-economy.com/news/articleView.html?idxno=68409&quot;&gt;http://www.apple-economy.com/news/articleView.html?idxno=68409&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;ai와-접목-부동산-알고리즘-맹신하다간-낭패&quot;&gt;AI와 접목 ‘부동산 알고리즘’ 맹신하다간 ‘낭패’?&lt;/h1&gt;
+
+&lt;h3 id=&quot;알고리즘대로-투자했다가-도산-직전-일부-해외-부동산-기업사례도&quot;&gt;“알고리즘대로 투자했다가 도산 직전”, 일부 해외 부동산 기업사례도&lt;/h3&gt;
+&lt;h3 id=&quot;가격-등-거래조건-변동성-심한-부동산-알고리즘에만-의존은-위험&quot;&gt;“가격 등 거래조건 변동성 심한 부동산, 알고리즘에만 의존은 위험”&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.apple-economy.com/news/photo/202111/68409_47626_5323.jpg&quot; alt=&quot;사진은 본문과 직접 관련은 없음.&quot; /&gt;
+사진은 본문과 직접 관련은 없음.&lt;/p&gt;
+
+&lt;p&gt;[애플경제 양다운 기자] 최근 각종 ICT관련 산업전시회 등에선 ‘부동산에 AI를 입힌다’는 식의 부동산 알고리즘이 다수 선보이고 있다. 심지어는 은행권에서도 대출심사를 위해 개인이나 기업에 대한 AI분석에 의한 다각도의 데이터 마이닝이 이뤄지기도 한다. 그러나 최근 해외에선 부동산 알고리즘의 오류에 관한 일련의 사례들이 보고되고 있어 경계심을 높이고 있다.&lt;/p&gt;
+
+&lt;p&gt;최근 IT매체 CIO 닷컴에 의하면, 알고리즘으로 인해 주택을 잘못 구입했다가 파산 직전까지 몰린 사례가 공개되었다. 이 매체가 전하는 대표적 사례는 온라인 부동산 시장업체인 ‘질로우’사의 경우다. 이 회사는 이처럼 알고리즘을 맹신하다, 결국 수억 달러의 손해를 봤고 결국 인력을 감축할 수 밖에 없었다는 얘기다.&lt;/p&gt;
+
+&lt;p&gt;2021년 11월 온라인 부동산 시장업체인 질로우는 주주총회에서 질로우 오퍼스의 운영을 중단하고 향후 몇 분기에 걸쳐 인력의 25%에 달하는 약 2,000명의 직원을 감원할 것이라고 밝혔다. 부동산업체인 질로우의 문제는 주택가격을 예측하기 위해 사용했던 머신러닝 알고리즘의 오류 비율이었다.&lt;/p&gt;
+
+&lt;p&gt;이 회사가 구축한 부동산 알고리즘은 ‘질로우 오퍼스’로 불린다. 이는 “머신러닝 알고리즘에서 파생된 주택 가치인 ‘제스티메이트(Zestimate)’를 기반으로 해 부동산에 대해 현금 거래를 제안하는 프로그램”이라는 설명이다. 이 프로그램은 부동산을 빠르게 개조하고 개량하기 위한 것이었다. 그러나 CIO닷컴이 인용한 바에 의하면 질로우 대변인은 CNN과의 인터뷰에서 “이 알고리즘은 1.9%의 중간 오류비율을 가지고 있으며, 시장에 나와있지 않은 주택의 경우 오류 비중이 6.9%까지 치솟을 수 있다.”고 토로한 것으로 전해졌다.&lt;/p&gt;
+
+&lt;p&gt;이에 따르면 질로우는 2018년 4월 ‘질로우 오퍼스’를 가동한 이후 이를 통해 2만 7,000채의 주택을 구매한 것으로 전해졌다. 그러나 그로부터 1년 5개월 여가 지나도록 전체의 절반이 조금 넘는 1만 7,000채 가량만 겨우 팔렸다. 이는 알고리즘이 미처 예상하지 못한 변수들이 겹치면서 더욱 오류 비율이 높아진 때문이다. 즉 ‘코로나 19’ 팬데믹과 이로 인한 주택 유지․보수에 필요한 노동력 부족 등과 같은 ‘블랙 스완’ 사건들이 알고리즘의 정확성을 현저하게 떨어뜨렸다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;결국 이 회사는 알고리즘만 믿고 있다가 터무니없이 비싼 가격에 여러 주택을 구매하는 바람에 큰 손해를 입게 되었다. CIO닷컴에 따르면 2021년 3분기에만 무려 3억 400만 달러의 재고상각을 초래했다는 소식이다. 결국 질로우의 공동 창업자이자 CEO인 리치 바톤은 성명을 통해 “앞으로 투자자와 상담하는 과정에서 알고리즘을 조정할 수 있을지 모르지만, 기본적으로 (알고리즘을 맹신한 것은) 너무나 위험스러운 조치였다”고 털어놓은 것으로 전해졌다.&lt;/p&gt;
+
+&lt;p&gt;그럼에도 국내에선 여전히 부동산과 AI, 빅데이터 등을 결합한 알고리즘 개발이 한창 붐을 이루고 있다. 부동산 시세 평가와 예측은 물론, 학군이나 주변 인프라, 유사한 매물정보 등을 토대로 한 부동산 매매가격 예측 모듈과 부동산 경락가격 예측 모듈을 구축하기도 한다. 대상 물건이 얼마에 팔리고, 만약 나중에 경매에 넘겨질 경우 어느 정도 가격선에 낙찰된 것인지 등을 미리 예측하기 위한 알고리즘이 성행하고 있다.&lt;/p&gt;
+
+&lt;p&gt;최근 ‘디지털전환엑스포 2021’에 참가한 한 데이터 라벨링 업체 관계자는 “가격과 조건의 변동성이 유난히 극심한 부동산 시장에선 전적으로 알고리즘만을 맹신할 경우 자칫 낭패를 보기 쉽다”면서 “실제로 우리보다 앞서 부동산과 AI․빅데이터 기술을 접목하고 있는 미국에선 최근 그런 경계심이 날로 확산되고 있는 것으로 안다”고 전했다.&lt;/p&gt;
+
+&lt;p&gt;양다운 기자 lovedaun7@gmail.com&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;, &quot;News&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Human Activity Recognition</title><link href="http://localhost:4000/ai/social/2021/12/01/human-activity-recognition.html" rel="alternate" type="text/html" title="Human Activity Recognition" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/ai/social/2021/12/01/human-activity-recognition</id><content type="html" xml:base="http://localhost:4000/ai/social/2021/12/01/human-activity-recognition.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Human Activity Recognition&lt;/p&gt;</content><author><name></name></author><category term="[&quot;AI&quot;, &quot;Social&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Bus Demand Prediction</title><link href="http://localhost:4000/ai/2021/12/01/bus-traffic-prediction.html" rel="alternate" type="text/html" title="Bus Demand Prediction" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/ai/2021/12/01/bus-traffic-prediction</id><content type="html" xml:base="http://localhost:4000/ai/2021/12/01/bus-traffic-prediction.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;/assets/img/posts/PCM20190308000187990_P4.jpg&quot; width=&quot;500&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The data collected by regular alight tags are not only used for public transportation policy establishment such as demand-tailored route reorganization based on big data, but also to provide citizens with various information necessary for daily life, such as bus congestion levels and the number of people getting on and off at each stop. However, the researches for bus demand prediction is limited, as they simply use geographical neighborhood or line connection network in the modeling, while ignoring the social meaning of the purpose of the destination. If we are able to reason why people are congested in specific time zone, it gives more explaination about the cause of the congestion and further can be used for prediction in the future. Here are some of the related works that has been already been done in this field:&lt;/p&gt;
+
+&lt;!-- * WWW 2021: Fine-Grained Urban Flow Prediction
+* AAAI 2020: Potential passenger flow prediction: A novel study for urban transportation development
+* IJCAI	2019:	STG2Seq - Spatial-Temporal Graph to Sequence Model for Multi-step Passenger Demand Forecasting.
+* KDD	2019:	Origin-Destination Matrix Prediction via Graph Convolution - a New Perspective of Passenger Demand Modeling.
+* ECML/PKDD 2018:	Discovering Urban Travel Demands Through Dynamic Zone Correlation in Location-Based Social Networks.
+* AAAI	2018:	DeepUrbanMomentum - An Online Deep-Learning System for Short-Term Urban Mobility Prediction.
+* Potential passenger flow prediction: A novel study for urban transportation development (AAAI-20)
+* Community-Aware Multi-Task Transportation Demand Prediction. (AAAI-21)
+* Revisiting spatial-temporal similarity: A deep learning framework for traffic prediction (AAAI-19)
+* Knowledge Adaption for Demand Prediction based on Multi-task Memory Neural Network. (CIKM-20)
+* A Fast and Accurate Method for Estimating People Flow from Spatiotemporal Population Data (IJCAI-18)
+* GSTNet: Global Spatial-Temporal Network for Traffic Flow Prediction (IJCAI-19)
+* A Sequential Convolution Network for Population Flow Prediction with Explicitly Correlation Modelling (IJCAI-20)
+* Co-Prediction of Multiple Transportation Demands Based on Deep Spatio-Temporal Neural Network (KDD-19)
+* Predicting short-term bus passenger demand using a pattern hybrid approach (TRC-14)
+* Generating demand responsive bus routes from social network data analysis (TRC-21) --&gt;
+
+&lt;h1 id=&quot;1-transportation-demand-prediction&quot;&gt;1. Transportation Demand Prediction&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;span id=&quot;liang2021fine&quot;&gt;Liang, Yuxuan, et al. “Fine-Grained Urban Flow Prediction.” &lt;i&gt;Proceedings of the Web Conference 2021&lt;/i&gt;, 2021, pp. 1833–45.&lt;/span&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Keywords: Hierarchical graph&lt;/li&gt;
+      &lt;li&gt;They found&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;span id=&quot;gong2020potential&quot;&gt;Gong, Yongshun, et al. “Potential Passenger Flow Prediction: A Novel Study for Urban Transportation Development.” &lt;i&gt;Proceedings of the AAAI Conference on Artificial Intelligence&lt;/i&gt;, vol. 34, no. 04, 2020, pp. 4020–27.&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Bai, Lei, et al. “Stg2seq: Spatial-temporal graph to sequence model for multi-step passenger demand forecasting.” arXiv preprint arXiv:1905.10069 (2019).
+        &lt;ul&gt;
+          &lt;li&gt;Hello&lt;/li&gt;
+          &lt;li&gt;Malfoysdfsd&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- 상시적인 하차태그로 수집된 자료는 빅데이터를 기반으로 한 수요 맞춤형 노선개편 등 대중교통 정책수립에 사용될 뿐만 아니라 버스 내 혼잡도나 정류소별 승하차 인원 등 실생활에 필요한 다양한 정보를 시민들에세 제공할 수 있게 된다.   --&gt;
+
+&lt;p&gt;Cited References&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Livehoods Projects</title><link href="http://localhost:4000/social/2021/12/01/livehoods-project.html" rel="alternate" type="text/html" title="Livehoods Projects" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/social/2021/12/01/livehoods-project</id><content type="html" xml:base="http://localhost:4000/social/2021/12/01/livehoods-project.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://livehoods.org/&quot;&gt;Livehoods project&lt;/a&gt; is a way to find urban social meaning using social media in rather practical way.&lt;/p&gt;</content><author><name></name></author><category term="[&quot;Social&quot;]" /><summary type="html"></summary></entry><entry><title type="html">How to use QGIS</title><link href="http://localhost:4000/db/2021/12/01/how-to-use-qgis.html" rel="alternate" type="text/html" title="How to use QGIS" /><published>2021-12-01T10:22:00+09:00</published><updated>2021-12-01T10:22:00+09:00</updated><id>http://localhost:4000/db/2021/12/01/how-to-use-qgis</id><content type="html" xml:base="http://localhost:4000/db/2021/12/01/how-to-use-qgis.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;(missing reference)
+(missing reference) [&lt;a href=&quot;&quot;&gt;Supporting Materials&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qgis.com/&quot;&gt;QGIS&lt;/a&gt; is a software for geographic information system.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;DB&quot;]" /><summary type="html"></summary></entry><entry><title type="html">Traffic Prediction</title><link href="http://localhost:4000/ai/2021/11/30/traffic-prediction.html" rel="alternate" type="text/html" title="Traffic Prediction" /><published>2021-11-30T15:43:00+09:00</published><updated>2021-11-30T15:43:00+09:00</updated><id>http://localhost:4000/ai/2021/11/30/traffic-prediction</id><content type="html" xml:base="http://localhost:4000/ai/2021/11/30/traffic-prediction.html">&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real numbers, it is rather easier to define a problem as follows:&lt;/p&gt;
+
+\[[X^{(1)}, ..., X^{(t-1)};\mathcal{G}] \xrightarrow{h(\cdot)} \hat{X}^{(t)}\]
+
+&lt;p&gt;Where \(X^{(t)} \in \mathbb{R}^{N_x}\) is a vector of traffic values of \(N_x\) sensors at timestamp \(t\), \(\mathcal{G}\) is a connection network between the traffic sensors, and \(h(\cdot)\) is a prediction model that can be assumed as a function. We normally evaluate the performance of the preiction model \(h(\cdot)\) using &lt;em&gt;mean absolute error (MAE)&lt;/em&gt;, &lt;em&gt;mean squared error (MSE)&lt;/em&gt;, &lt;em&gt;root mean squared error (RMSE)&lt;/em&gt;, &lt;em&gt;mean absolute percent error (MAPE)&lt;/em&gt;,  or &lt;em&gt;normalized mean absolute error (NMAE)&lt;/em&gt;. These evaluation metrics may also be used as loss function if the model is based on deep neural network.&lt;/p&gt;
+
+&lt;p&gt;Although we first described the problem as we can use all the historical values to predict the next step, it is not feasible to require all the historical data for each next step prediction. Therefore, we may define a problem in rather narrowed down fashion as follows:&lt;/p&gt;
+
+\[[X^{(t-P+1)}, ..., X^{(t)};\mathcal{G}] \xrightarrow{h(\cdot)} [\hat{X}^{(t+1)}, ..., \hat{X}^{(t+Q)}]\]
+
+&lt;p&gt;Here we defined problem to predict next \(Q\) time stemps based on previous \(P\) time steps. This assumes that the temporal correlation pattern can be found within \(P\)- timesteps to predict the next \(Q\)- timesteps while the spatial correlation between the traffic sensors catched by the sensor network \(\mathcal{G}\).&lt;/p&gt;
+
+&lt;p&gt;Here are some list of papers that you can consider as baselines.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DCRNN&lt;/strong&gt; - Li, Yaguang, et al. “Diffusion convolutional recurrent neural network: Data-driven traffic forecasting.” arXiv preprint arXiv:1707.01926 (2017).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ST-MetaNet&lt;/strong&gt; - Pan, Zheyi, et al. “Urban traffic prediction from spatio-temporal data using deep meta learning.” Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp;amp; Data Mining. 2019.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GMAN&lt;/strong&gt; - Zheng, Chuanpan, et al. “Gman: A graph multi-attention network for traffic prediction.” Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 01. 2020.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some of my favorite researchers who are working in this field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhangjunbo.org/&quot;&gt;Junbo Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html"></summary></entry></feed>

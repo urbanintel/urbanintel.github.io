@@ -1,0 +1,219 @@
+I"�.<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<p>More references are found here in this survey.</p>
+
+<ul>
+  <li><span id="manibardo2021deep">Manibardo, Eric L., et al. “Deep Learning for Road Traffic Forecasting: Does It Make a Difference?” <i>IEEE Transactions on Intelligent Transportation Systems</i>, IEEE, 2021.</span></li>
+  <li>
+    <p><span id="jiang2021graph">Jiang, Weiwei, and Jiayun Luo. “Graph Neural Network for Traffic Forecasting: A Survey.” <i>ArXiv Preprint ArXiv:2101.11174</i>, 2021.</span>.</p>
+  </li>
+  <li><a href="https://github.com/aprbw/traffic_prediction">https://github.com/aprbw/traffic_prediction</a></li>
+</ul>
+
+<p>Conferences of interest:</p>
+
+<ul>
+  <li>KDD</li>
+  <li>AAAI</li>
+  <li>CIKM</li>
+  <li>ICLR</li>
+  <li>WWW</li>
+  <li>SIGSPATIAL</li>
+</ul>
+
+<h1 id="dcrnn-iclr-18-li-et-al">DCRNN (ICLR-18) <a class="citation" href="#li2018dcrnn_traffic">(Li et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/liyaguang/DCRNN/raw/master/figures/model_architecture.jpg" width="800" /></p>
+
+<ul>
+  <li>Paper: <a href="https://openreview.net/forum?id=SJiHXGWAZ">Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting</a></li>
+  <li>Code: <a href="https://github.com/liyaguang/DCRNN">https://github.com/liyaguang/DCRNN</a></li>
+</ul>
+
+<h1 id="st-gcn-ijcai-18-yu-et-al">ST-GCN (IJCAI-18) <a class="citation" href="#yu2018spatio">(Yu et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/Graph_Structured_Traffic_Data.png" width="360" /><img src="https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/STGCN.png" width="450" /></p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.24963/ijcai.2018/505">Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.</a></li>
+  <li>Code: <a href="https://github.com/VeritasYin/STGCN_IJCAI-18">https://github.com/VeritasYin/STGCN_IJCAI-18</a></li>
+</ul>
+
+<h1 id="st-metanet-kdd-19-pan-et-al">ST-MetaNet (KDD-19) <a class="citation" href="#DBLP:conf/kdd/PanLW00Z19">(Pan et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/panzheyi/ST-MetaNet/raw/master/overview.jpg" width="800" /></p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.1145/3292500.3330884">Urban traffic prediction from spatio-temporal data using deep meta learning</a></li>
+  <li>Code: <a href="https://github.com/panzheyi/ST-MetaNet">https://github.com/panzheyi/ST-MetaNet</a></li>
+</ul>
+
+<h1 id="graph-wavenet-ijcai-19-wu-et-al">Graph WaveNet (IJCAI-19) <a class="citation" href="#DBLP:conf/ijcai/WuPLJZ19">(Wu et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/nnzhan/Graph-WaveNet/raw/master/fig/model.png" width="400" /></p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.24963/ijcai.2019/264">Graph WaveNet for Deep Spatial-Temporal Graph Modeling</a></li>
+  <li>Code: <a href="https://github.com/nnzhan/Graph-WaveNet">https://github.com/nnzhan/Graph-WaveNet</a></li>
+</ul>
+
+<h1 id="gman-aaai-20-zheng-et-al">GMAN (AAAI-20) <a class="citation" href="#DBLP:conf/aaai/ZhengFW020">(Zheng et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/zhengchuanpan/GMAN/raw/master/figure/GMAN.png" width="600" /></p>
+
+<ul>
+  <li>Paper: <a href="https://ojs.aaai.org/index.php/AAAI/article/view/5477">GMAN: A Graph Multi-Attention Network for Traffic Prediction</a></li>
+  <li>Code: <a href="https://github.com/zhengchuanpan/GMAN">https://github.com/zhengchuanpan/GMAN</a></li>
+</ul>
+
+<h1 id="stag-gcn-cikm-20-lu-et-al">STAG-GCN (CIKM-20) <a class="citation" href="#DBLP:conf/cikm/LuGJFZ20">(Lu et al.)</a></h1>
+
+<p align="center"><img src="https://github.com/RobinLu1209/STAG-GCN/raw/master/figures/system_model.png" width="700" /></p>
+
+<ul>
+  <li>Paper: <a href="https://dl.acm.org/doi/10.1145/3340531.3411894">Spatiotemporal Adaptive Gated Graph Convolution Network for Urban Traffic Flow Forecasting</a></li>
+  <li>Code: <a href="https://github.com/RobinLu1209/STAG-GCN">https://github.com/RobinLu1209/STAG-GCN</a></li>
+</ul>
+
+<h1 id="gts-iclr-21-shang-et-al">GTS (ICLR-21) <a class="citation" href="#DBLP:conf/iclr/Shang0B21">(Shang et al.)</a></h1>
+
+<p align="center"><img src="/assets/../../assets/img/posts/GTS-architecture.png" width="800" /></p>
+
+<ul>
+  <li>Paper: <a href="https://openreview.net/forum?id=WEHSlH5mOk">Discrete Graph Structure Learning for Forecasting Multiple Time Series</a></li>
+  <li>Code: <a href="https://github.com/chaoshangcs/GTS">https://github.com/chaoshangcs/GTS</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li>
+<span id="li2018dcrnn_traffic">Li, Yaguang, et al. “Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting.” <i>International Conference on Learning Representations (ICLR ’18)</i>, 2018.</span>
+
+
+<!-- <pre>@inproceedings{li2018dcrnn_traffic,
+  title = {Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic Forecasting},
+  author = {Li, Yaguang and Yu, Rose and Shahabi, Cyrus and Liu, Yan},
+  booktitle = {International Conference on Learning Representations (ICLR '18)},
+  year = {2018}
+}
+</pre> --></li>
+<li>
+<span id="yu2018spatio">Yu, Bing, et al. “Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting.” <i>Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI)</i>, 2018.</span>
+
+
+<!-- <pre>@inproceedings{yu2018spatio,
+  title = {Spatio-temporal Graph Convolutional Networks: A Deep Learning Framework for Traffic Forecasting},
+  author = {Yu, Bing and Yin, Haoteng and Zhu, Zhanxing},
+  booktitle = {Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI)},
+  year = {2018}
+}
+</pre> --></li>
+<li>
+<a href="https://doi.org/10.1145/3292500.3330884"><span id="DBLP:conf/kdd/PanLW00Z19">Pan, Zheyi, et al. “Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
+               Learning.” <i>Proceedings of the 25th ACM SIGKDD International Conference On
+               Knowledge Discovery &amp; Data Mining, KDD 2019, Anchorage, AK,
+               USA, August 4-8, 2019</i>, edited by Ankur Teredesai et al., ACM, 2019, pp. 1720–30, doi:10.1145/3292500.3330884.</span></a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/kdd/PanLW00Z19,
+  author = {Pan, Zheyi and Liang, Yuxuan and Wang, Weifeng and Yu, Yong and Zheng, Yu and Zhang, Junbo},
+  editor = {Teredesai, Ankur and Kumar, Vipin and Li, Ying and Rosales, R{\'{o}}mer and Terzi, Evimaria and Karypis, George},
+  title = {Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
+                 Learning},
+  booktitle = {Proceedings of the 25th {ACM} {SIGKDD} International Conference on
+                 Knowledge Discovery {\&} Data Mining, {KDD} 2019, Anchorage, AK,
+                 USA, August 4-8, 2019},
+  pages = {1720--1730},
+  publisher = {{ACM}},
+  year = {2019},
+  url = {https://doi.org/10.1145/3292500.3330884},
+  doi = {10.1145/3292500.3330884},
+  timestamp = {Thu, 14 Oct 2021 09:50:02 +0200},
+  biburl = {https://dblp.org/rec/conf/kdd/PanLW00Z19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li>
+<a href="https://doi.org/10.24963/ijcai.2019/264"><span id="DBLP:conf/ijcai/WuPLJZ19">Wu, Zonghan, et al. “Graph WaveNet for Deep Spatial-Temporal Graph Modeling.” <i>Proceedings of the Twenty-Eighth International Joint Conference On
+               Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16,
+               2019</i>, edited by Sarit Kraus, ijcai.org, 2019, pp. 1907–13, doi:10.24963/ijcai.2019/264.</span></a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/ijcai/WuPLJZ19,
+  author = {Wu, Zonghan and Pan, Shirui and Long, Guodong and Jiang, Jing and Zhang, Chengqi},
+  editor = {Kraus, Sarit},
+  title = {Graph WaveNet for Deep Spatial-Temporal Graph Modeling},
+  booktitle = {Proceedings of the Twenty-Eighth International Joint Conference on
+                 Artificial Intelligence, {IJCAI} 2019, Macao, China, August 10-16,
+                 2019},
+  pages = {1907--1913},
+  publisher = {ijcai.org},
+  year = {2019},
+  url = {https://doi.org/10.24963/ijcai.2019/264},
+  doi = {10.24963/ijcai.2019/264},
+  timestamp = {Tue, 29 Dec 2020 18:40:48 +0100},
+  biburl = {https://dblp.org/rec/conf/ijcai/WuPLJZ19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li>
+<a href="https://aaai.org/ojs/index.php/AAAI/article/view/5477"><span id="DBLP:conf/aaai/ZhengFW020">Zheng, Chuanpan, et al. “GMAN: A Graph Multi-Attention Network for Traffic Prediction.” <i>The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI
+               2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+               Conference, IAAI 2020, The Tenth AAAI Symposium on Educational
+               Advances in Artificial Intelligence, EAAI 2020, New York, NY, USA,
+               February 7-12, 2020</i>, AAAI Press, 2020, pp. 1234–41, https://aaai.org/ojs/index.php/AAAI/article/view/5477.</span></a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/aaai/ZhengFW020,
+  author = {Zheng, Chuanpan and Fan, Xiaoliang and Wang, Cheng and Qi, Jianzhong},
+  title = {{GMAN:} {A} Graph Multi-Attention Network for Traffic Prediction},
+  booktitle = {The Thirty-Fourth {AAAI} Conference on Artificial Intelligence, {AAAI}
+                 2020, The Thirty-Second Innovative Applications of Artificial Intelligence
+                 Conference, {IAAI} 2020, The Tenth {AAAI} Symposium on Educational
+                 Advances in Artificial Intelligence, {EAAI} 2020, New York, NY, USA,
+                 February 7-12, 2020},
+  pages = {1234--1241},
+  publisher = {{AAAI} Press},
+  year = {2020},
+  url = {https://aaai.org/ojs/index.php/AAAI/article/view/5477},
+  timestamp = {Tue, 02 Feb 2021 07:59:41 +0100},
+  biburl = {https://dblp.org/rec/conf/aaai/ZhengFW020.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li>
+<span id="DBLP:conf/cikm/LuGJFZ20">Lu, Bin, et al. “Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+               Traffic Flow Forecasting.” <i>CIKM ’20: The 29th ACM International Conference on Information
+               and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020</i>, ACM, 2020, pp. 1025–34.</span>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/cikm/LuGJFZ20,
+  author = {Lu, Bin and Gan, Xiaoying and Jin, Haiming and Fu, Luoyi and Zhang, Haisong},
+  title = {Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+                 Traffic Flow Forecasting},
+  booktitle = {{CIKM} '20: The 29th {ACM} International Conference on Information
+                 and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020},
+  pages = {1025--1034},
+  publisher = {{ACM}},
+  year = {2020}
+}
+</pre> --></li>
+<li>
+<a href="https://openreview.net/forum?id=WEHSlH5mOk"><span id="DBLP:conf/iclr/Shang0B21">Shang, Chao, et al. “Discrete Graph Structure Learning for Forecasting Multiple Time Series.” <i>9th International Conference on Learning Representations, ICLR 2021,
+               Virtual Event, Austria, May 3-7, 2021</i>, OpenReview.net, 2021, https://openreview.net/forum?id=WEHSlH5mOk.</span></a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/iclr/Shang0B21,
+  author = {Shang, Chao and Chen, Jie and Bi, Jinbo},
+  title = {Discrete Graph Structure Learning for Forecasting Multiple Time Series},
+  booktitle = {9th International Conference on Learning Representations, {ICLR} 2021,
+                 Virtual Event, Austria, May 3-7, 2021},
+  publisher = {OpenReview.net},
+  year = {2021},
+  url = {https://openreview.net/forum?id=WEHSlH5mOk},
+  timestamp = {Wed, 23 Jun 2021 17:36:39 +0200},
+  biburl = {https://dblp.org/rec/conf/iclr/Shang0B21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li></ol>
+:ET

@@ -27,7 +27,8 @@ defaults:
 
 scholar:
   style: modern-language-association
-  # bibliography_template: <abbr>[{{extension}}]</abbr>{{reference}}
+  bibliography_template: bib
+  # bibliography_template: <abbr>[{{index}}]</abbr>{{reference}}
 
 markdown: kramdown
 kramdown:
