@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/assets/fonts/fonts.css"/>
-<link rel="stylesheet" href="/assets/style.css"/>
-<link rel="stylesheet" href="/assets/js/lity.min.css"/>
+    <link rel="stylesheet" href="http://localhost:4000/assets/fonts/fonts.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/style.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/js/lity.min.css"/>
 
 
 <link rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico' />
@@ -22,7 +22,7 @@
     " 
 />
 
-<meta property="og:url" content="//ai/2021/12/03/TrafficDeepNet.html" />
+<meta property="og:url" content="http://localhost:4000//ai/2021/12/03/RoadTrafficDeepNet.html" />
 
     <meta property="og:type" content="article" />
 
@@ -42,7 +42,7 @@
 
     <header class="header">
     <section class="logo">
-        <a href="/" class="logo__link">
+        <a href="http://localhost:4000/" class="logo__link">
             
                 <h1>UrbanIntel</h1>
             
@@ -61,9 +61,9 @@
         <li class="item">
 
             <div class="item-controls">
-                <a href="/category/AI.html">
+                <a href="http://localhost:4000/category/AI.html">
                 
-                    <img src="/assets/artificial-intelligence-ai.svg"/>
+                    <img src="http://localhost:4000/assets/artificial-intelligence-ai.svg"/>
                 
                 
                     <p style="color: var(--c-themeHueOrange)">AI</p>
@@ -78,9 +78,9 @@
         <li class="item">
 
             <div class="item-controls">
-                <a href="/category/DB.html">
+                <a href="http://localhost:4000/category/DB.html">
                 
-                    <img src="/assets/database-db.svg"/>
+                    <img src="http://localhost:4000/assets/database-db.svg"/>
                 
                 
                     <p style="color: var(--c-themeHueBlue)">DB</p>
@@ -95,9 +95,9 @@
         <li class="item">
 
             <div class="item-controls">
-                <a href="/category/Social.html">
+                <a href="http://localhost:4000/category/Social.html">
                 
-                    <img src="/assets/like-share.svg"/>
+                    <img src="http://localhost:4000/assets/like-share.svg"/>
                 
                 
                     <p style="color: var(--c-themeHueGreen)">Social</p>
@@ -106,6 +106,59 @@
 
             
             </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/News.html">
+                
+                    <img src="http://localhost:4000/assets/newspaper.svg"/>
+                
+                
+                    <p style="color: var(--c-themeHueRed)">News</p>
+                
+                </a>
+
+            
+                <a class="button-submenu" href="#"><i class="arrow"></i></a>
+            </div>
+                
+<ul class="list">
+
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/Conference.html">
+                
+                
+                    <p style="color: var(--c-themeHueDarkGreen)">Conference</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/Research.html">
+                
+                
+                    <p style="color: var(--c-themeHuePurple)">Research</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+</ul>
             
         </li>   
     
@@ -134,16 +187,21 @@
     
 
     <div class="post__content">
-        <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+        <h1 id="overview">Overview</h1>
 
-<h1 id="overview">Overview</h1>
+<p>Urban Computing Mind Map:</p>
 
-<p>More references are found here in this survey.</p>
+<p><img src="/assets/img/posts/Urban-computing-english.png" alt="" /></p>
+
+<p>More references are found here in this survey:</p>
 
 <ul>
-  <li>Deep learning for road traffic forecasting: Does it make a difference? <a class="citation" href="#manibardo2021deep">(Manibardo et al.)</a></li>
-  <li>Graph neural network for traffic forecasting: A survey <a class="citation" href="#jiang2021graph">(Jiang and Luo)</a></li>
+  <li>Deep learning for road traffic forecasting: Does it make a difference? <a class="citation" href="#manibardo2021deep">[1]</a></li>
+  <li>Graph neural network for traffic forecasting: A survey <a class="citation" href="#jiang2021graph">[2]</a></li>
   <li>Traffic Prediction Survey <a href="https://github.com/aprbw/traffic_prediction">https://github.com/aprbw/traffic_prediction</a></li>
+  <li>GNN4Traffic <a href="https://github.com/jwwthu/GNN4Traffic">https://github.com/jwwthu/GNN4Traffic</a></li>
+  <li>Survey: <a href="https://ieeexplore.ieee.org/abstract/document/9204396">https://ieeexplore.ieee.org/abstract/document/9204396</a></li>
+  <li>Papers with code <a href="https://paperswithcode.com/task/traffic-prediction">https://paperswithcode.com/task/traffic-prediction</a></li>
 </ul>
 
 <p>Conferences of interest:</p>
@@ -408,7 +466,7 @@
 
 <h1 id="traffic-deepnet-models">Traffic DeepNet Models</h1>
 
-<h2 id="dcrnn-iclr-18-li-et-al">DCRNN (ICLR-18) <a class="citation" href="#DBLP:conf/iclr/LiYS018">(Li et al.)</a></h2>
+<h2 id="dcrnn-iclr-18-3">DCRNN (ICLR-18) <a class="citation" href="#DBLP:conf/iclr/LiYS018">[3]</a></h2>
 
 <p align="center"><img src="https://github.com/liyaguang/DCRNN/raw/master/figures/model_architecture.jpg" width="800" /></p>
 
@@ -417,7 +475,7 @@
   <li>Code: <a href="https://github.com/liyaguang/DCRNN">https://github.com/liyaguang/DCRNN</a></li>
 </ul>
 
-<h2 id="st-gcn-ijcai-18-yu-et-al">ST-GCN (IJCAI-18) <a class="citation" href="#DBLP:conf/ijcai/YuYZ18">(Yu et al.)</a></h2>
+<h2 id="st-gcn-ijcai-18-4">ST-GCN (IJCAI-18) <a class="citation" href="#DBLP:conf/ijcai/YuYZ18">[4]</a></h2>
 
 <p align="center"><img src="https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/Graph_Structured_Traffic_Data.png" width="360" /><img src="https://github.com/VeritasYin/STGCN_IJCAI-18/raw/master/figures/STGCN.png" width="450" /></p>
 
@@ -426,7 +484,7 @@
   <li>Code: <a href="https://github.com/VeritasYin/STGCN_IJCAI-18">https://github.com/VeritasYin/STGCN_IJCAI-18</a></li>
 </ul>
 
-<h2 id="st-metanet-kdd-19-pan-et-al">ST-MetaNet (KDD-19) <a class="citation" href="#DBLP:conf/kdd/PanLW00Z19">(Pan et al.)</a></h2>
+<h2 id="st-metanet-kdd-19-5">ST-MetaNet (KDD-19) <a class="citation" href="#DBLP:conf/kdd/PanLW00Z19">[5]</a></h2>
 
 <p align="center"><img src="https://github.com/panzheyi/ST-MetaNet/raw/master/overview.jpg" width="800" /></p>
 
@@ -435,7 +493,7 @@
   <li>Code: <a href="https://github.com/panzheyi/ST-MetaNet">https://github.com/panzheyi/ST-MetaNet</a></li>
 </ul>
 
-<h2 id="graph-wavenet-ijcai-19-wu-et-al">Graph WaveNet (IJCAI-19) <a class="citation" href="#DBLP:conf/ijcai/WuPLJZ19">(Wu et al.)</a></h2>
+<h2 id="graph-wavenet-ijcai-19-6">Graph WaveNet (IJCAI-19) <a class="citation" href="#DBLP:conf/ijcai/WuPLJZ19">[6]</a></h2>
 
 <p align="center"><img src="https://github.com/nnzhan/Graph-WaveNet/raw/master/fig/model.png" width="400" /></p>
 
@@ -444,7 +502,7 @@
   <li>Code: <a href="https://github.com/nnzhan/Graph-WaveNet">https://github.com/nnzhan/Graph-WaveNet</a></li>
 </ul>
 
-<h2 id="gman-aaai-20-zheng-et-al">GMAN (AAAI-20) <a class="citation" href="#DBLP:conf/aaai/ZhengFW020">(Zheng et al.)</a></h2>
+<h2 id="gman-aaai-20-7">GMAN (AAAI-20) <a class="citation" href="#DBLP:conf/aaai/ZhengFW020">[7]</a></h2>
 
 <p align="center"><img src="https://github.com/zhengchuanpan/GMAN/raw/master/figure/GMAN.png" width="600" /></p>
 
@@ -453,7 +511,7 @@
   <li>Code: <a href="https://github.com/zhengchuanpan/GMAN">https://github.com/zhengchuanpan/GMAN</a></li>
 </ul>
 
-<h2 id="stag-gcn-cikm-20-lu-et-al">STAG-GCN (CIKM-20) <a class="citation" href="#DBLP:conf/cikm/LuGJFZ20">(Lu et al.)</a></h2>
+<h2 id="stag-gcn-cikm-20-8">STAG-GCN (CIKM-20) <a class="citation" href="#DBLP:conf/cikm/LuGJFZ20">[8]</a></h2>
 
 <p align="center"><img src="https://github.com/RobinLu1209/STAG-GCN/raw/master/figures/system_model.png" width="700" /></p>
 
@@ -462,7 +520,24 @@
   <li>Code: <a href="https://github.com/RobinLu1209/STAG-GCN">https://github.com/RobinLu1209/STAG-GCN</a></li>
 </ul>
 
-<h2 id="gts-iclr-21-shang-et-al">GTS (ICLR-21) <a class="citation" href="#DBLP:conf/iclr/Shang0B21">(Shang et al.)</a></h2>
+<h2 id="agcrn-neurips-20-9">AGCRN (NeurIPS-20) <a class="citation" href="#DBLP:conf/nips/0001YL0020">[9]</a></h2>
+
+<p align="center"><img src="/assets/img/posts/AGCRN.png" width="500" /></p>
+
+<ul>
+  <li>Paper: <a href="https://proceedings.neurips.cc/paper/2020/hash/ce1aad92b939420fc17005e5461e6f48-Abstract.html">Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting.</a></li>
+  <li>Code: <a href="https://github.com/LeiBAI/AGCRN">https://github.com/LeiBAI/AGCRN</a></li>
+</ul>
+
+<h2 id="traffic-transformer-tgis-20-10">Traffic Transformer (TGIS-20) <a class="citation" href="#DBLP:journals/tgis/CaiJMYZ20">[10]</a></h2>
+
+<p align="center"><img src="/assets/img/posts/TrafficTransformer.png" width="800" /></p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.1111/tgis.12644">Traffic Transformer: Capturing the Continuity and Periodicity of Time Series for Traffic Forecasting.</a></li>
+</ul>
+
+<h2 id="gts-iclr-21-11">GTS (ICLR-21) <a class="citation" href="#DBLP:conf/iclr/Shang0B21">[11]</a></h2>
 
 <p align="center"><img src="/assets/../../assets/img/posts/GTS-architecture.png" width="800" /></p>
 
@@ -472,9 +547,9 @@
 </ul>
 
 <h1 id="references">References</h1>
+<ol class="bibliography"><li><span id="manibardo2021deep">[1]Manibardo, E.L. et al. 2021. Deep learning for road traffic forecasting: Does it make a difference? <i>IEEE Transactions on Intelligent Transportation Systems</i>. (2021).</span>
 
-<ol class="bibliography"><li>
-<a href="https://ieeexplore.ieee.org/abstract/document/9447807"><span id="manibardo2021deep">Manibardo, Eric L., et al. “Deep Learning for Road Traffic Forecasting: Does It Make a Difference?” <i>IEEE Transactions on Intelligent Transportation Systems</i>, IEEE, 2021, https://ieeexplore.ieee.org/abstract/document/9447807.</span></a>
+<a href="https://ieeexplore.ieee.org/abstract/document/9447807" target="_blank">link</a>
 
 
 <!-- <pre>@article{manibardo2021deep,
@@ -486,8 +561,9 @@
   url = {https://ieeexplore.ieee.org/abstract/document/9447807}
 }
 </pre> --></li>
-<li>
-<a href="https://arxiv.org/abs/2101.11174"><span id="jiang2021graph">Jiang, Weiwei, and Jiayun Luo. “Graph Neural Network for Traffic Forecasting: A Survey.” <i>ArXiv Preprint ArXiv:2101.11174</i>, 2021, https://arxiv.org/abs/2101.11174.</span></a>
+<li><span id="jiang2021graph">[2]Jiang, W. and Luo, J. 2021. Graph neural network for traffic forecasting: A survey. <i>arXiv preprint arXiv:2101.11174</i>. (2021).</span>
+
+<a href="https://arxiv.org/abs/2101.11174" target="_blank">link</a>
 
 
 <!-- <pre>@article{jiang2021graph,
@@ -498,10 +574,11 @@
   url = {https://arxiv.org/abs/2101.11174}
 }
 </pre> --></li>
-<li>
-<a href="https://openreview.net/forum?id=SJiHXGWAZ"><span id="DBLP:conf/iclr/LiYS018">Li, Yaguang, et al. “Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic
-               Forecasting.” <i>6th International Conference on Learning Representations, ICLR 2018,
-               Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings</i>, OpenReview.net, 2018, https://openreview.net/forum?id=SJiHXGWAZ.</span></a>
+<li><span id="DBLP:conf/iclr/LiYS018">[3]Li, Y. et al. 2018. Diffusion Convolutional Recurrent Neural Network: Data-Driven Traffic
+               Forecasting. <i>6th International Conference on Learning Representations, ICLR 2018,
+               Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings</i> (2018).</span>
+
+<a href="https://openreview.net/forum?id=SJiHXGWAZ" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/iclr/LiYS018,
@@ -518,11 +595,12 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://doi.org/10.24963/ijcai.2018/505"><span id="DBLP:conf/ijcai/YuYZ18">Yu, Bing, et al. “Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework
-               for Traffic Forecasting.” <i>Proceedings of the Twenty-Seventh International Joint Conference On
+<li><span id="DBLP:conf/ijcai/YuYZ18">[4]Yu, B. et al. 2018. Spatio-Temporal Graph Convolutional Networks: A Deep Learning Framework
+               for Traffic Forecasting. <i>Proceedings of the Twenty-Seventh International Joint Conference on
                Artificial Intelligence, IJCAI 2018, July 13-19, 2018, Stockholm,
-               Sweden</i>, edited by Jérôme Lang, ijcai.org, 2018, pp. 3634–40, doi:10.24963/ijcai.2018/505.</span></a>
+               Sweden</i> (2018), 3634–3640.</span>
+
+<a href="https://doi.org/10.24963/ijcai.2018/505" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/ijcai/YuYZ18,
@@ -543,11 +621,12 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://doi.org/10.1145/3292500.3330884"><span id="DBLP:conf/kdd/PanLW00Z19">Pan, Zheyi, et al. “Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
-               Learning.” <i>Proceedings of the 25th ACM SIGKDD International Conference On
+<li><span id="DBLP:conf/kdd/PanLW00Z19">[5]Pan, Z. et al. 2019. Urban Traffic Prediction from Spatio-Temporal Data Using Deep Meta
+               Learning. <i>Proceedings of the 25th ACM SIGKDD International Conference on
                Knowledge Discovery &amp; Data Mining, KDD 2019, Anchorage, AK,
-               USA, August 4-8, 2019</i>, edited by Ankur Teredesai et al., ACM, 2019, pp. 1720–30, doi:10.1145/3292500.3330884.</span></a>
+               USA, August 4-8, 2019</i> (2019), 1720–1730.</span>
+
+<a href="https://doi.org/10.1145/3292500.3330884" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/kdd/PanLW00Z19,
@@ -568,10 +647,11 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://doi.org/10.24963/ijcai.2019/264"><span id="DBLP:conf/ijcai/WuPLJZ19">Wu, Zonghan, et al. “Graph WaveNet for Deep Spatial-Temporal Graph Modeling.” <i>Proceedings of the Twenty-Eighth International Joint Conference On
+<li><span id="DBLP:conf/ijcai/WuPLJZ19">[6]Wu, Z. et al. 2019. Graph WaveNet for Deep Spatial-Temporal Graph Modeling. <i>Proceedings of the Twenty-Eighth International Joint Conference on
                Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16,
-               2019</i>, edited by Sarit Kraus, ijcai.org, 2019, pp. 1907–13, doi:10.24963/ijcai.2019/264.</span></a>
+               2019</i> (2019), 1907–1913.</span>
+
+<a href="https://doi.org/10.24963/ijcai.2019/264" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/ijcai/WuPLJZ19,
@@ -591,12 +671,13 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://aaai.org/ojs/index.php/AAAI/article/view/5477"><span id="DBLP:conf/aaai/ZhengFW020">Zheng, Chuanpan, et al. “GMAN: A Graph Multi-Attention Network for Traffic Prediction.” <i>The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI
+<li><span id="DBLP:conf/aaai/ZhengFW020">[7]Zheng, C. et al. 2020. GMAN: A Graph Multi-Attention Network for Traffic Prediction. <i>The Thirty-Fourth AAAI Conference on Artificial Intelligence, AAAI
                2020, The Thirty-Second Innovative Applications of Artificial Intelligence
                Conference, IAAI 2020, The Tenth AAAI Symposium on Educational
                Advances in Artificial Intelligence, EAAI 2020, New York, NY, USA,
-               February 7-12, 2020</i>, AAAI Press, 2020, pp. 1234–41, https://aaai.org/ojs/index.php/AAAI/article/view/5477.</span></a>
+               February 7-12, 2020</i> (2020), 1234–1241.</span>
+
+<a href="https://aaai.org/ojs/index.php/AAAI/article/view/5477" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/aaai/ZhengFW020,
@@ -616,10 +697,11 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://doi.org/10.1145/3340531.3411894"><span id="DBLP:conf/cikm/LuGJFZ20">Lu, Bin, et al. “Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
-               Traffic Flow Forecasting.” <i>CIKM ’20: The 29th ACM International Conference on Information
-               and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020</i>, edited by Mathieu d’Aquin et al., ACM, 2020, pp. 1025–34, doi:10.1145/3340531.3411894.</span></a>
+<li><span id="DBLP:conf/cikm/LuGJFZ20">[8]Lu, B. et al. 2020. Spatiotemporal Adaptive Gated Graph Convolution Network for Urban
+               Traffic Flow Forecasting. <i>CIKM ’20: The 29th ACM International Conference on Information
+               and Knowledge Management, Virtual Event, Ireland, October 19-23, 2020</i> (2020), 1025–1034.</span>
+
+<a href="https://doi.org/10.1145/3340531.3411894" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/cikm/LuGJFZ20,
@@ -639,9 +721,53 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 </pre> --></li>
-<li>
-<a href="https://openreview.net/forum?id=WEHSlH5mOk"><span id="DBLP:conf/iclr/Shang0B21">Shang, Chao, et al. “Discrete Graph Structure Learning for Forecasting Multiple Time Series.” <i>9th International Conference on Learning Representations, ICLR 2021,
-               Virtual Event, Austria, May 3-7, 2021</i>, OpenReview.net, 2021, https://openreview.net/forum?id=WEHSlH5mOk.</span></a>
+<li><span id="DBLP:conf/nips/0001YL0020">[9]Bai, L. et al. 2020. Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting. <i>Advances in Neural Information Processing Systems 33: Annual Conference
+               on Neural Information Processing Systems 2020, NeurIPS 2020, December
+               6-12, 2020, virtual</i> (2020).</span>
+
+<a href="https://proceedings.neurips.cc/paper/2020/hash/ce1aad92b939420fc17005e5461e6f48-Abstract.html" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/nips/0001YL0020,
+  author = {Bai, Lei and Yao, Lina and Li, Can and Wang, Xianzhi and Wang, Can},
+  editor = {Larochelle, Hugo and Ranzato, Marc'Aurelio and Hadsell, Raia and Balcan, Maria{-}Florina and Lin, Hsuan{-}Tien},
+  title = {Adaptive Graph Convolutional Recurrent Network for Traffic Forecasting},
+  booktitle = {Advances in Neural Information Processing Systems 33: Annual Conference
+                 on Neural Information Processing Systems 2020, NeurIPS 2020, December
+                 6-12, 2020, virtual},
+  year = {2020},
+  url = {https://proceedings.neurips.cc/paper/2020/hash/ce1aad92b939420fc17005e5461e6f48-Abstract.html},
+  timestamp = {Tue, 19 Jan 2021 15:57:14 +0100},
+  biburl = {https://dblp.org/rec/conf/nips/0001YL0020.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:journals/tgis/CaiJMYZ20">[10]Cai, L. et al. 2020. Traffic transformer: Capturing the continuity and periodicity of time
+               series for traffic forecasting. <i>Trans. GIS</i>. 24, 3 (2020), 736–755. DOI:https://doi.org/10.1111/tgis.12644.</span>
+
+<a href="https://doi.org/10.1111/tgis.12644" target="_blank">link</a>
+
+
+<!-- <pre>@article{DBLP:journals/tgis/CaiJMYZ20,
+  author = {Cai, Ling and Janowicz, Krzysztof and Mai, Gengchen and Yan, Bo and Zhu, Rui},
+  title = {Traffic transformer: Capturing the continuity and periodicity of time
+                 series for traffic forecasting},
+  journal = {Trans. {GIS}},
+  volume = {24},
+  number = {3},
+  pages = {736--755},
+  year = {2020},
+  url = {https://doi.org/10.1111/tgis.12644},
+  doi = {10.1111/tgis.12644},
+  timestamp = {Wed, 25 Nov 2020 10:55:45 +0100},
+  biburl = {https://dblp.org/rec/journals/tgis/CaiJMYZ20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/iclr/Shang0B21">[11]Shang, C. et al. 2021. Discrete Graph Structure Learning for Forecasting Multiple Time Series. <i>9th International Conference on Learning Representations, ICLR 2021,
+               Virtual Event, Austria, May 3-7, 2021</i> (2021).</span>
+
+<a href="https://openreview.net/forum?id=WEHSlH5mOk" target="_blank">link</a>
 
 
 <!-- <pre>@inproceedings{DBLP:conf/iclr/Shang0B21,
@@ -659,6 +785,7 @@
 </pre> --></li></ol>
 
     </div>
+
 </article>
 
     
@@ -668,12 +795,12 @@
                 
                 <span class="divider">·</span>
                 
-                <span class="footer__about__theme"><p>theme</p><a id="simplex-logo" href="https://github.com/andreondra/jekyll-theme-simplex" target="_blank"><img alt="Simplex theme logo" src="/assets/img/icons/simplex_logo.svg"/></a><p>by <a href="https://ondrej.golasowski.com/">golas</a></p></span>
+                <span class="footer__about__theme"><p>theme</p><a id="simplex-logo" href="https://github.com/andreondra/jekyll-theme-simplex" target="_blank"><img alt="Simplex theme logo" src="http://localhost:4000/assets/img/icons/simplex_logo.svg"/></a><p>by <a href="https://ondrej.golasowski.com/">golas</a></p></span>
         </section>
 </footer>
     
-    <script src="/assets/js/jquery.slim.min.js"></script>
-<script src="/assets/js/lity.min.js"></script>
-<script src="/assets/js/tools.js"></script>
+    <script src="http://localhost:4000/assets/js/jquery.slim.min.js"></script>
+<script src="http://localhost:4000/assets/js/lity.min.js"></script>
+<script src="http://localhost:4000/assets/js/tools.js"></script>
 </body>
 </html>

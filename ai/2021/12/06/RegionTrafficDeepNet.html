@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="http://localhost:4000/assets/fonts/fonts.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/style.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/js/lity.min.css"/>
+
+
+<link rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico' />
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta property="og:site_name" content="UrbanIntel" />
+<meta 
+    property="og:title"
+    content="
+        
+            Recent Deep Learning for Regional Traffic Prediction | UrbanIntel
+        
+    " 
+/>
+
+<meta property="og:url" content="http://localhost:4000//ai/2021/12/06/RegionTrafficDeepNet.html" />
+
+    <meta property="og:type" content="article" />
+
+
+
+    <meta property="fb:app_id" content="" />
+
+
+
+<title>
+    
+        Recent Deep Learning for Regional Traffic Prediction | UrbanIntel
+    
+</title>
+</head>
+<body class="index">
+
+    <header class="header">
+    <section class="logo">
+        <a href="http://localhost:4000/" class="logo__link">
+            
+                <h1>UrbanIntel</h1>
+            
+        </a>
+    </section>
+    <button id="menuToggle">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
+    <nav class="menu">
+        
+<ul class="list primary">
+
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/AI.html">
+                
+                    <img src="http://localhost:4000/assets/artificial-intelligence-ai.svg"/>
+                
+                
+                    <p style="color: var(--c-themeHueOrange)">AI</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/DB.html">
+                
+                    <img src="http://localhost:4000/assets/database-db.svg"/>
+                
+                
+                    <p style="color: var(--c-themeHueBlue)">DB</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/Social.html">
+                
+                    <img src="http://localhost:4000/assets/like-share.svg"/>
+                
+                
+                    <p style="color: var(--c-themeHueGreen)">Social</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/News.html">
+                
+                    <img src="http://localhost:4000/assets/newspaper.svg"/>
+                
+                
+                    <p style="color: var(--c-themeHueRed)">News</p>
+                
+                </a>
+
+            
+                <a class="button-submenu" href="#"><i class="arrow"></i></a>
+            </div>
+                
+<ul class="list">
+
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/Conference.html">
+                
+                
+                    <p style="color: var(--c-themeHueDarkGreen)">Conference</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+        <li class="item">
+
+            <div class="item-controls">
+                <a href="http://localhost:4000/category/Research.html">
+                
+                
+                    <p style="color: var(--c-themeHuePurple)">Research</p>
+                
+                </a>
+
+            
+            </div>
+            
+        </li>   
+    
+</ul>
+            
+        </li>   
+    
+</ul>
+    </nav>
+</header>
+
+    <article class="post">
+
+    <div class="post__title">
+        <h1 class="post__title__text">Recent Deep Learning for Regional Traffic Prediction</h1>
+    </div>
+    <div class="post__meta"> 
+        <div class="post__meta__category">
+            
+                <p class="post__meta__category__title" style="background: var(--c-themeHueOrange)">AI</p>
+            
+        </div>
+        <p class="post__meta__divider">·</p>
+        <div class="post__meta__date">
+            December 06, 2021
+        </div>
+        
+    </div>
+
+    
+
+    <div class="post__content">
+        <p>Regional traffic prediction</p>
+
+<h1 id="overview">Overview</h1>
+
+<p>More references are found here in this survey:</p>
+
+<ul>
+  <li>Deep learning for road traffic forecasting: Does it make a difference? <a class="citation" href="#manibardo2021deep">[1]</a></li>
+  <li>Graph neural network for traffic forecasting: A survey <a class="citation" href="#jiang2021graph">[2]</a></li>
+  <li>Traffic Prediction Survey <a href="https://github.com/aprbw/traffic_prediction">https://github.com/aprbw/traffic_prediction</a></li>
+  <li>Papers with code <a href="https://paperswithcode.com/task/traffic-prediction">https://paperswithcode.com/task/traffic-prediction</a></li>
+</ul>
+
+<p>Conferences of interest:</p>
+
+<ul>
+  <li>KDD</li>
+  <li>AAAI</li>
+  <li>CIKM</li>
+  <li>ICLR</li>
+  <li>WWW</li>
+  <li>SIGSPATIAL</li>
+</ul>
+
+<h1 id="regional-traffic-deepnet-models">Regional Traffic DeepNet Models</h1>
+
+<h2 id="convlstm-nips-15-3">ConvLSTM (NIPS-15) <a class="citation" href="#DBLP:conf/nips/ShiCWYWW15">[3]</a>:</h2>
+<p>It extends LSTM to have convolutional structures to better capture spatio-temporal correlations.</p>
+
+<ul>
+  <li>Paper: <a href="https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html">Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting.</a></li>
+</ul>
+
+<h2 id="deepst-sigspatial-16-4">DeepST (SIGSPATIAL-16) <a class="citation" href="#DBLP:conf/gis/ZhangZQLY16">[4]</a>:</h2>
+<p>The first deep learning-based prediction model for grid-based spatio-Temporal data.</p>
+
+<ul>
+  <li>Paper: <a href="">Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction</a></li>
+</ul>
+
+<h2 id="st-resnet-aaai-17-5">ST-ResNet (AAAI-17) <a class="citation" href="#DBLP:conf/aaai/ZhangZQ17">[5]</a>:</h2>
+<p>A ResNet-based method, which shows promising results on citywide crowd flows prediction.</p>
+
+<ul>
+  <li>Paper: <a href="http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14501">Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction.</a></li>
+</ul>
+
+<h2 id="st-3dnet-tits-19-6">ST-3DNet (TITS-19) <a class="citation" href="#DBLP:journals/tits/GuoLLCW19">[6]</a>:</h2>
+<p>It uses 3D convolution to capture the correlation of traffic data in both spatial and temporal dimensions.</p>
+
+<ul>
+  <li>Paper: <a href="">Deep Spatial-Temporal 3D Convolutional Neural Networks for Traffic Data Forecasting</a></li>
+</ul>
+
+<h2 id="stdn-aaai-19-7">STDN (AAAI-19) <a class="citation" href="#DBLP:conf/aaai/YaoTWZL19">[7]</a>:</h2>
+<p>It employs CNNs and LSTMs to capture spatial and temporal correlations separately, and an attention mechanism to model long-term periodic temporal shifting.</p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.1609/aaai.v33i01.33015668">Revisiting Spatial-Temporal Similarity: A Deep Learning Framework for Traffic Prediction.</a></li>
+</ul>
+
+<h2 id="deepstn-aaai-19-8">DeepSTN+ (AAAI-19) <a class="citation" href="#DBLP:conf/aaai/LinFLLJ19">[8]</a>:</h2>
+<p>The state-of-the-art method for urban flow prediction, which can capture long-term spatial dependencies as well as the effect of land functions.</p>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.1609/aaai.v33i01.33011020">DeepSTN+: Context-Aware Spatial-Temporal Neural Network for Crowd Flow Prediction in Metropolis.</a></li>
+</ul>
+
+<h2 id="strn-www-21-9">STRN (WWW-21) <a class="citation" href="#DBLP:conf/www/LiangOSWZZRZ21">[9]</a></h2>
+
+<ul>
+  <li>Paper: <a href="https://doi.org/10.1145/3442381.3449792">Fine-Grained Urban Flow Prediction</a></li>
+  <li>Code: &lt;&gt;</li>
+</ul>
+
+<h1 id="references">References</h1>
+<ol class="bibliography"><li><span id="manibardo2021deep">[1]Manibardo, E.L. et al. 2021. Deep learning for road traffic forecasting: Does it make a difference? <i>IEEE Transactions on Intelligent Transportation Systems</i>. (2021).</span>
+
+<a href="https://ieeexplore.ieee.org/abstract/document/9447807" target="_blank">link</a>
+
+
+<!-- <pre>@article{manibardo2021deep,
+  title = {Deep learning for road traffic forecasting: Does it make a difference?},
+  author = {Manibardo, Eric L and La{\~n}a, Ibai and Del Ser, Javier},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  year = {2021},
+  publisher = {IEEE},
+  url = {https://ieeexplore.ieee.org/abstract/document/9447807}
+}
+</pre> --></li>
+<li><span id="jiang2021graph">[2]Jiang, W. and Luo, J. 2021. Graph neural network for traffic forecasting: A survey. <i>arXiv preprint arXiv:2101.11174</i>. (2021).</span>
+
+<a href="https://arxiv.org/abs/2101.11174" target="_blank">link</a>
+
+
+<!-- <pre>@article{jiang2021graph,
+  title = {Graph neural network for traffic forecasting: A survey},
+  author = {Jiang, Weiwei and Luo, Jiayun},
+  journal = {arXiv preprint arXiv:2101.11174},
+  year = {2021},
+  url = {https://arxiv.org/abs/2101.11174}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/nips/ShiCWYWW15">[3]Shi, X. et al. 2015. Convolutional LSTM Network: A Machine Learning Approach for Precipitation
+               Nowcasting. <i>Advances in Neural Information Processing Systems 28: Annual Conference
+               on Neural Information Processing Systems 2015, December 7-12, 2015,
+               Montreal, Quebec, Canada</i> (2015), 802–810.</span>
+
+<a href="https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/nips/ShiCWYWW15,
+  author = {Shi, Xingjian and Chen, Zhourong and Wang, Hao and Yeung, Dit{-}Yan and Wong, Wai{-}Kin and Woo, Wang{-}chun},
+  editor = {Cortes, Corinna and Lawrence, Neil D. and Lee, Daniel D. and Sugiyama, Masashi and Garnett, Roman},
+  title = {Convolutional {LSTM} Network: {A} Machine Learning Approach for Precipitation
+                 Nowcasting},
+  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference
+                 on Neural Information Processing Systems 2015, December 7-12, 2015,
+                 Montreal, Quebec, Canada},
+  pages = {802--810},
+  year = {2015},
+  url = {https://proceedings.neurips.cc/paper/2015/hash/07563a3fe3bbe7e3ba84431ad9d055af-Abstract.html},
+  timestamp = {Thu, 21 Jan 2021 15:15:22 +0100},
+  biburl = {https://dblp.org/rec/conf/nips/ShiCWYWW15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/gis/ZhangZQLY16">[4]Zhang, J. et al. 2016. DNN-based prediction model for spatio-temporal data. <i>Proceedings of the 24th ACM SIGSPATIAL International Conference
+               on Advances in Geographic Information Systems, GIS 2016, Burlingame,
+               California, USA, October 31 - November 3, 2016</i> (2016), 92:1–92:4.</span>
+
+<a href="https://doi.org/10.1145/2996913.2997016" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/gis/ZhangZQLY16,
+  author = {Zhang, Junbo and Zheng, Yu and Qi, Dekang and Li, Ruiyuan and Yi, Xiuwen},
+  editor = {Ravada, Siva and Ali, Mohammed Eunus and Newsam, Shawn D. and Renz, Matthias and Trajcevski, Goce},
+  title = {DNN-based prediction model for spatio-temporal data},
+  booktitle = {Proceedings of the 24th {ACM} {SIGSPATIAL} International Conference
+                 on Advances in Geographic Information Systems, {GIS} 2016, Burlingame,
+                 California, USA, October 31 - November 3, 2016},
+  pages = {92:1--92:4},
+  publisher = {{ACM}},
+  year = {2016},
+  url = {https://doi.org/10.1145/2996913.2997016},
+  doi = {10.1145/2996913.2997016},
+  timestamp = {Tue, 06 Nov 2018 11:07:36 +0100},
+  biburl = {https://dblp.org/rec/conf/gis/ZhangZQLY16.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/aaai/ZhangZQ17">[5]Zhang, J. et al. 2017. Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction. <i>Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence,
+               February 4-9, 2017, San Francisco, California, USA</i> (2017), 1655–1661.</span>
+
+<a href="http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14501" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/aaai/ZhangZQ17,
+  author = {Zhang, Junbo and Zheng, Yu and Qi, Dekang},
+  editor = {Singh, Satinder P. and Markovitch, Shaul},
+  title = {Deep Spatio-Temporal Residual Networks for Citywide Crowd Flows Prediction},
+  booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence,
+                 February 4-9, 2017, San Francisco, California, {USA}},
+  pages = {1655--1661},
+  publisher = {{AAAI} Press},
+  year = {2017},
+  url = {http://aaai.org/ocs/index.php/AAAI/AAAI17/paper/view/14501},
+  timestamp = {Wed, 10 Feb 2021 08:44:46 +0100},
+  biburl = {https://dblp.org/rec/conf/aaai/ZhangZQ17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:journals/tits/GuoLLCW19">[6]Guo, S. et al. 2019. Deep Spatial-Temporal 3D Convolutional Neural Networks for Traffic
+               Data Forecasting. <i>IEEE Trans. Intell. Transp. Syst.</i> 20, 10 (2019), 3913–3926. DOI:https://doi.org/10.1109/TITS.2019.2906365.</span>
+
+<a href="https://doi.org/10.1109/TITS.2019.2906365" target="_blank">link</a>
+
+
+<!-- <pre>@article{DBLP:journals/tits/GuoLLCW19,
+  author = {Guo, Shengnan and Lin, Youfang and Li, Shijie and Chen, Zhaoming and Wan, Huaiyu},
+  title = {Deep Spatial-Temporal 3D Convolutional Neural Networks for Traffic
+                 Data Forecasting},
+  journal = {{IEEE} Trans. Intell. Transp. Syst.},
+  volume = {20},
+  number = {10},
+  pages = {3913--3926},
+  year = {2019},
+  url = {https://doi.org/10.1109/TITS.2019.2906365},
+  doi = {10.1109/TITS.2019.2906365},
+  timestamp = {Tue, 08 Sep 2020 14:08:58 +0200},
+  biburl = {https://dblp.org/rec/journals/tits/GuoLLCW19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/aaai/YaoTWZL19">[7]Yao, H. et al. 2019. Revisiting Spatial-Temporal Similarity: A Deep Learning Framework
+               for Traffic Prediction. <i>The Thirty-Third AAAI Conference on Artificial Intelligence, AAAI
+               2019, The Thirty-First Innovative Applications of Artificial Intelligence
+               Conference, IAAI 2019, The Ninth AAAI Symposium on Educational
+               Advances in Artificial Intelligence, EAAI 2019, Honolulu, Hawaii,
+               USA, January 27 - February 1, 2019</i> (2019), 5668–5675.</span>
+
+<a href="https://doi.org/10.1609/aaai.v33i01.33015668" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/aaai/YaoTWZL19,
+  author = {Yao, Huaxiu and Tang, Xianfeng and Wei, Hua and Zheng, Guanjie and Li, Zhenhui},
+  title = {Revisiting Spatial-Temporal Similarity: {A} Deep Learning Framework
+                 for Traffic Prediction},
+  booktitle = {The Thirty-Third {AAAI} Conference on Artificial Intelligence, {AAAI}
+                 2019, The Thirty-First Innovative Applications of Artificial Intelligence
+                 Conference, {IAAI} 2019, The Ninth {AAAI} Symposium on Educational
+                 Advances in Artificial Intelligence, {EAAI} 2019, Honolulu, Hawaii,
+                 USA, January 27 - February 1, 2019},
+  pages = {5668--5675},
+  publisher = {{AAAI} Press},
+  year = {2019},
+  url = {https://doi.org/10.1609/aaai.v33i01.33015668},
+  doi = {10.1609/aaai.v33i01.33015668},
+  timestamp = {Tue, 02 Feb 2021 07:59:43 +0100},
+  biburl = {https://dblp.org/rec/conf/aaai/YaoTWZL19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/aaai/LinFLLJ19">[8]Lin, Z. et al. 2019. DeepSTN+: Context-Aware Spatial-Temporal Neural Network for Crowd
+               Flow Prediction in Metropolis. <i>The Thirty-Third AAAI Conference on Artificial Intelligence, AAAI
+               2019, The Thirty-First Innovative Applications of Artificial Intelligence
+               Conference, IAAI 2019, The Ninth AAAI Symposium on Educational
+               Advances in Artificial Intelligence, EAAI 2019, Honolulu, Hawaii,
+               USA, January 27 - February 1, 2019</i> (2019), 1020–1027.</span>
+
+<a href="https://doi.org/10.1609/aaai.v33i01.33011020" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/aaai/LinFLLJ19,
+  author = {Lin, Ziqian and Feng, Jie and Lu, Ziyang and Li, Yong and Jin, Depeng},
+  title = {DeepSTN+: Context-Aware Spatial-Temporal Neural Network for Crowd
+                 Flow Prediction in Metropolis},
+  booktitle = {The Thirty-Third {AAAI} Conference on Artificial Intelligence, {AAAI}
+                 2019, The Thirty-First Innovative Applications of Artificial Intelligence
+                 Conference, {IAAI} 2019, The Ninth {AAAI} Symposium on Educational
+                 Advances in Artificial Intelligence, {EAAI} 2019, Honolulu, Hawaii,
+                 USA, January 27 - February 1, 2019},
+  pages = {1020--1027},
+  publisher = {{AAAI} Press},
+  year = {2019},
+  url = {https://doi.org/10.1609/aaai.v33i01.33011020},
+  doi = {10.1609/aaai.v33i01.33011020},
+  timestamp = {Tue, 02 Feb 2021 08:00:41 +0100},
+  biburl = {https://dblp.org/rec/conf/aaai/LinFLLJ19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li>
+<li><span id="DBLP:conf/www/LiangOSWZZRZ21">[9]Liang, Y. et al. 2021. Fine-Grained Urban Flow Prediction. <i>WWW ’21: The Web Conference 2021, Virtual Event / Ljubljana, Slovenia,
+               April 19-23, 2021</i> (2021), 1833–1845.</span>
+
+<a href="https://doi.org/10.1145/3442381.3449792" target="_blank">link</a>
+
+
+<!-- <pre>@inproceedings{DBLP:conf/www/LiangOSWZZRZ21,
+  author = {Liang, Yuxuan and Ouyang, Kun and Sun, Junkai and Wang, Yiwei and Zhang, Junbo and Zheng, Yu and Rosenblum, David S. and Zimmermann, Roger},
+  editor = {Leskovec, Jure and Grobelnik, Marko and Najork, Marc and Tang, Jie and Zia, Leila},
+  title = {Fine-Grained Urban Flow Prediction},
+  booktitle = {{WWW} '21: The Web Conference 2021, Virtual Event / Ljubljana, Slovenia,
+                 April 19-23, 2021},
+  pages = {1833--1845},
+  publisher = {{ACM} / {IW3C2}},
+  year = {2021},
+  url = {https://doi.org/10.1145/3442381.3449792},
+  doi = {10.1145/3442381.3449792},
+  timestamp = {Mon, 05 Jul 2021 22:07:07 +0200},
+  biburl = {https://dblp.org/rec/conf/www/LiangOSWZZRZ21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+</pre> --></li></ol>
+
+    </div>
+
+</article>
+
+    
+    <footer class="footer">
+        <section class="footer__about">
+                <p class="footer__about__copyright">© UrbanIntel 2021</p>
+                
+                <span class="divider">·</span>
+                
+                <span class="footer__about__theme"><p>theme</p><a id="simplex-logo" href="https://github.com/andreondra/jekyll-theme-simplex" target="_blank"><img alt="Simplex theme logo" src="http://localhost:4000/assets/img/icons/simplex_logo.svg"/></a><p>by <a href="https://ondrej.golasowski.com/">golas</a></p></span>
+        </section>
+</footer>
+    
+    <script src="http://localhost:4000/assets/js/jquery.slim.min.js"></script>
+<script src="http://localhost:4000/assets/js/lity.min.js"></script>
+<script src="http://localhost:4000/assets/js/tools.js"></script>
+</body>
+</html>
