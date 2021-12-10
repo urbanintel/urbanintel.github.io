@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-10T16:59:37+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">KDD-22 (Feb 10th, 2022)</title><link href="/conference/2021/12/06/KDD-22.html" rel="alternate" type="text/html" title="KDD-22 (Feb 10th, 2022)" /><published>2021-12-06T10:22:00+09:00</published><updated>2021-12-06T10:22:00+09:00</updated><id>/conference/2021/12/06/KDD-22</id><content type="html" xml:base="/conference/2021/12/06/KDD-22.html">&lt;h1 id=&quot;important-dates-time-anywhere-on-earth&quot;&gt;Important Dates (Time: Anywhere on Earth)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-12-10T17:01:55+09:00</updated><id>/feed.xml</id><title type="html">UrbanIntel</title><subtitle>Urban Intelligence for Smart City</subtitle><entry><title type="html">KDD-22 (Feb 10th, 2022)</title><link href="/conference/2021/12/06/KDD-22.html" rel="alternate" type="text/html" title="KDD-22 (Feb 10th, 2022)" /><published>2021-12-06T10:22:00+09:00</published><updated>2021-12-06T10:22:00+09:00</updated><id>/conference/2021/12/06/KDD-22</id><content type="html" xml:base="/conference/2021/12/06/KDD-22.html">&lt;h1 id=&quot;important-dates-time-anywhere-on-earth&quot;&gt;Important Dates (Time: Anywhere on Earth)&lt;/h1&gt;
 
 &lt;p&gt;KDD is a dual track conference hosting both a Research and an Applied Data Science track. A paper should either be submitted to the Research or the Applied Science track but not both. Research track submissions are limited to nine (9 pages), including references, must be in PDF and use ACM Conference Proceeding templates. An additional two pages of supplemental material focused on reproducibility can be provided. Additionally, proofs and pseudo-code that could not be included in the main nine-page manuscript may also be included in the two-page supplement. Template guidelines are here: https://www.acm.org/publications/proceedings-template.&lt;/p&gt;
 
@@ -1042,4 +1042,30 @@ This resubmission information will be visible to reviewers only during the discu
   biburl = {https://dblp.org/rec/conf/iclr/Shang0B21.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
-&lt;/pre&gt; --&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html">Overview</summary></entry></feed>
+&lt;/pre&gt; --&gt;&lt;/li&gt;&lt;/ol&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html">Overview</summary></entry><entry><title type="html">Traffic Prediction</title><link href="/ai/2021/11/30/traffic-prediction.html" rel="alternate" type="text/html" title="Traffic Prediction" /><published>2021-11-30T15:43:00+09:00</published><updated>2021-11-30T15:43:00+09:00</updated><id>/ai/2021/11/30/traffic-prediction</id><content type="html" xml:base="/ai/2021/11/30/traffic-prediction.html">&lt;p&gt;Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real numbers, it is rather easier to define a problem as follows:&lt;/p&gt;
+
+\[[X^{(1)}, ..., X^{(t-1)};\mathcal{G}] \xrightarrow{h(\cdot)} \hat{X}^{(t)}\]
+
+&lt;p&gt;Where \(X^{(t)} \in \mathbb{R}^{N_x}\) is a vector of traffic values of \(N_x\) sensors at timestamp \(t\), \(\mathcal{G}\) is a connection network between the traffic sensors, and \(h(\cdot)\) is a prediction model that can be assumed as a function. We normally evaluate the performance of the preiction model \(h(\cdot)\) using &lt;em&gt;mean absolute error (MAE)&lt;/em&gt;, &lt;em&gt;mean squared error (MSE)&lt;/em&gt;, &lt;em&gt;root mean squared error (RMSE)&lt;/em&gt;, &lt;em&gt;mean absolute percent error (MAPE)&lt;/em&gt;,  or &lt;em&gt;normalized mean absolute error (NMAE)&lt;/em&gt;. These evaluation metrics may also be used as loss function if the model is based on deep neural network.&lt;/p&gt;
+
+&lt;p&gt;Although we first described the problem as we can use all the historical values to predict the next step, it is not feasible to require all the historical data for each next step prediction. Therefore, we may define a problem in rather narrowed down fashion as follows:&lt;/p&gt;
+
+\[[X^{(t-P+1)}, ..., X^{(t)};\mathcal{G}] \xrightarrow{h(\cdot)} [\hat{X}^{(t+1)}, ..., \hat{X}^{(t+Q)}]\]
+
+&lt;p&gt;Here we defined problem to predict next \(Q\) time stemps based on previous \(P\) time steps. This assumes that the temporal correlation pattern can be found within \(P\)- timesteps to predict the next \(Q\)- timesteps while the spatial correlation between the traffic sensors catched by the sensor network \(\mathcal{G}\).&lt;/p&gt;
+
+&lt;p&gt;Here are some list of papers that you can consider as baselines.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;DCRNN&lt;/strong&gt; - Li, Yaguang, et al. “Diffusion convolutional recurrent neural network: Data-driven traffic forecasting.” arXiv preprint arXiv:1707.01926 (2017).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ST-MetaNet&lt;/strong&gt; - Pan, Zheyi, et al. “Urban traffic prediction from spatio-temporal data using deep meta learning.” Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery &amp;amp; Data Mining. 2019.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GMAN&lt;/strong&gt; - Zheng, Chuanpan, et al. “Gman: A graph multi-attention network for traffic prediction.” Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 01. 2020.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are some of my favorite researchers who are working in this field.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://zhangjunbo.org/&quot;&gt;Junbo Zhang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</content><author><name></name></author><category term="[&quot;AI&quot;]" /><summary type="html">Traffic prediction is one of the most interesting topics in recent AI conferences. Traffic prediction is challenging yet intriguing due to its temporal and spatial complexities. Since traffic values such as traffic volume or speed are measured in real numbers, it is rather easier to define a problem as follows:</summary></entry></feed>
